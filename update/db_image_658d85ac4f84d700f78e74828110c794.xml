@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="db_image">
+    <db_image action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category/>
+        <format>png</format>
+        <height>1</height>
+        <image/>
+        <name>oig_Image_076.png</name>
+        <size_bytes>319</size_bytes>
+        <sys_class_name>db_image</sys_class_name>
+        <sys_created_by>daniyom.haile</sys_created_by>
+        <sys_created_on>2018-01-30 17:20:40</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>658d85ac4f84d700f78e74828110c794</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>oig_Image_076.png</sys_name>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>db_image_658d85ac4f84d700f78e74828110c794</sys_update_name>
+        <sys_updated_by>daniyom.haile</sys_updated_by>
+        <sys_updated_on>2018-01-30 17:20:40</sys_updated_on>
+        <thumbnail/>
+        <width>740</width>
+    </db_image>
+    <sys_attachment action="INSERT_OR_UPDATE">
+        <average_image_color/>
+        <chunk_size_bytes>734003</chunk_size_bytes>
+        <compressed>true</compressed>
+        <content_type>image/png</content_type>
+        <file_name>image</file_name>
+        <image_height/>
+        <image_width/>
+        <size_bytes>319</size_bytes>
+        <size_compressed>342</size_compressed>
+        <sys_created_by>daniyom.haile</sys_created_by>
+        <sys_created_on>2018-01-30 17:20:40</sys_created_on>
+        <sys_id>ad8d85ac4f84d700f78e74828110c795</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_updated_by>daniyom.haile</sys_updated_by>
+        <sys_updated_on>2018-01-30 17:20:40</sys_updated_on>
+        <table_name>ZZ_YYdb_image</table_name>
+        <table_sys_id>658d85ac4f84d700f78e74828110c794</table_sys_id>
+    </sys_attachment>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>H4sIAAAAAAAAAA==</data>
+        <length>16</length>
+        <position>0</position>
+        <sys_attachment display_value="image" sys_id="ad8d85ac4f84d700f78e74828110c795">ad8d85ac4f84d700f78e74828110c795</sys_attachment>
+        <sys_created_by>daniyom.haile</sys_created_by>
+        <sys_created_on>2018-01-30 17:20:40</sys_created_on>
+        <sys_id>ed8d85ac4f84d700f78e74828110c795</sys_id>
+    </sys_attachment_doc>
+    <sys_attachment_doc action="INSERT_OR_UPDATE">
+        <data>AT8BwP6JUE5HDQoaCgAAAA1JSERSAAAC5AAAAAEIBgAAAJayu30AAAAGYktHRAD/AP8A/6C9p5MAAAAJcEhZcwAADsQAAA7EAZUrDhsAAADfSURBVEiJ1VZBEsQgCIv/f3T35CzDJFlCT8ulUwkxCqgHwIOvPQAO9nbjK8/lV7zKr7T0cfbf+ZSejmVz9lgW17GTGIZVGjbj1c/mdXiXq0O+zlRMUmtTLNv3hMPl/43etK9qTyY1wuKruXVM15n0iMp378FtXq5Nzg5XG063wrM4wK81tYmWqU6GT3wMW21zvt9xl99E668a/scad/uTaHS6FR/TiEWsyweIz91Z6X031eKwCWdaA+4dwOacvkHUv8Mxvu7vmPRuY5yql9R8TsPmvma6tjWe5LGOPwDOB/v7mAGNpu2GAAAAAElFTkSuQmCC6flNWz8BAAA=</data>
+        <length>444</length>
+        <position>1</position>
+        <sys_attachment display_value="image" sys_id="ad8d85ac4f84d700f78e74828110c795">ad8d85ac4f84d700f78e74828110c795</sys_attachment>
+        <sys_created_by>daniyom.haile</sys_created_by>
+        <sys_created_on>2018-01-30 17:20:40</sys_created_on>
+        <sys_id>618d85ac4f84d700f78e74828110c796</sys_id>
+    </sys_attachment_doc>
+</record_update>

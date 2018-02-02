@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_entg_hhs_poc_outside_activity_request">final_sig=false^EQ<item endquery="false" field="final_sig" goto="false" newquery="false" operator="=" or="false" value="false"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>true</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {	
+	if(!g_user.hasRole('x_entg_hhs_poc.admin')&&!g_user.hasRole('admin')){
+		g_form.setSectionDisplay('agency_ethicsofficialreview', false);
+	}
+}]]></script_true>
+        <set_values/>
+        <short_description>Hide Official Section</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>john.suits</sys_created_by>
+        <sys_created_on>2018-01-26 17:44:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>6fac245f4f7f0700f78e74828110c7f8</sys_id>
+        <sys_mod_count>7</sys_mod_count>
+        <sys_name>Hide Official Section</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sys_ui_policy_6fac245f4f7f0700f78e74828110c7f8</sys_update_name>
+        <sys_updated_by>jade.garcia</sys_updated_by>
+        <sys_updated_on>2018-01-31 14:58:31</sys_updated_on>
+        <table>x_entg_hhs_poc_outside_activity_request</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script/>
+        <controller_as>c</controller_as>
+        <css>#master{
+  font-family: "century gothic";
+}
+#message{
+  //width:100%;        
+  //position: absolute;
+  //text-align: center;
+  //padding-top:50%;  
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data>{
+	"data": {
+		"sometext": "world"
+	}
+}</demo_data>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>welcome_message</id>
+        <internal>false</internal>
+        <link/>
+        <name>Welcome Message</name>
+        <option_schema/>
+        <public>true</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+	
+	data.user = gs.getUserDisplayName() + "'s";
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>kennedy.nguyen</sys_created_by>
+        <sys_created_on>2018-01-25 14:18:58</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>53f3b2fe4f3bc300ec6c3cb28110c7aa</sys_id>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>Welcome Message</sys_name>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sp_widget_53f3b2fe4f3bc300ec6c3cb28110c7aa</sys_update_name>
+        <sys_updated_by>kennedy.nguyen</sys_updated_by>
+        <sys_updated_on>2018-01-25 14:37:16</sys_updated_on>
+        <template><![CDATA[<div id="master">  
+<div id="message">
+ <h1 style="padding-top:75px;">{{data.user}} Dashboard</h1>
+</div>
+</div>]]></template>
+    </sp_widget>
+</record_update>

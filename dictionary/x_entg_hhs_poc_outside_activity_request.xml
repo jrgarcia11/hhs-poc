@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="Outside Activity Request" max_length="40" name="x_entg_hhs_poc_outside_activity_request" sizeclass="17" type="collection">
+        <element choice="1" label="Outside Activity Type" max_length="40" name="activity_type" type="choice">
+            <choice>
+                <element label="Professional or Consultative Activities" sequence="0" value="activities"/>
+                <element label="Teaching" sequence="1" value="Teaching"/>
+                <element label="Board Service" sequence="4" value="board service"/>
+                <element label="Expert Witness" sequence="5" value="expert witness"/>
+                <element label="Other" sequence="6" value="other"/>
+            </choice>
+        </element>
+        <element label="Describe:" max_length="1000" name="activity_type_desc" type="string"/>
+        <element label="Describe:" max_length="1000" name="actvity_duty_relation" type="string"/>
+        <element label="Advance" max_length="40" name="advance" type="boolean"/>
+        <element label="Annual report" max_length="32" name="annual_report" reference="x_entg_hhs_poc_outside_activity_annual_report" type="reference"/>
+        <element label="Request as described may be approved" max_length="40" name="approved" type="boolean"/>
+        <element label="Request may be approved subject to conditions noted in Comments Section" max_length="40" name="approved_w_comments" type="boolean"/>
+        <element choice="1" label="Compensation" max_length="40" name="compensated" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Compensation Amount" max_length="20" name="comp_amount" type="currency"/>
+        <element label="Describe" max_length="1000" name="consultaiton_desc" type="string"/>
+        <element label="Grantee, Contractor, or Other Status" max_length="40" name="consultation" type="boolean"/>
+        <element label="Date filed" max_length="40" name="date_filed" type="glide_date"/>
+        <element label="Days per week" max_length="40" name="days_per_week" type="integer"/>
+        <element label="Request as described must be denied" max_length="40" name="denied" type="boolean"/>
+        <element label="Text of Disclaimer" max_length="40" name="disclaimer_text" type="boolean"/>
+        <element label="Other disposition noted in Comments Section" max_length="40" name="disposition" type="boolean"/>
+        <element label="Employee" max_length="32" name="employee" reference="x_entg_hhs_poc_employees" type="reference"/>
+        <element label="Describe:" max_length="40" name="employer_duty_effect" type="string"/>
+        <element label="To" max_length="40" name="end_date" type="glide_date"/>
+        <element label="Cell" max_length="40" name="entity_cell" type="string"/>
+        <element label="City" max_length="40" name="entity_city" type="string"/>
+        <element label="Email" max_length="40" name="entity_email" type="string"/>
+        <element label="Fax" max_length="40" name="entity_fax" type="string"/>
+        <element choice="1" label="State" max_length="40" name="entity_state" type="choice">
+            <choice/>
+        </element>
+        <element label="Street" max_length="100" name="entity_street" type="string"/>
+        <element label="Telephone" max_length="40" name="entity_telephone" type="string"/>
+        <element label="Zip" max_length="40" name="entity_zip" type="string"/>
+        <element label="Estimated amount" max_length="20" name="estimated_amount" type="currency"/>
+        <element attributes="edge_encryption_enabled=true" label="Cell" max_length="40" name="ethics_official_cell" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Email" max_length="40" name="ethics_official_email" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Fax" max_length="40" name="ethics_official_fax" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Name of Agency Ethics Official" max_length="100" name="ethics_official_name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Telephone" max_length="40" name="ethics_official_tele" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Title of Agency Ethics Official" max_length="100" name="ethics_official_title" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Organization" max_length="40" name="ethics_organization" type="string"/>
+        <element label="Explain:" max_length="1000" name="explanation" type="string"/>
+        <element label="Fee" max_length="40" name="fee" type="boolean"/>
+        <element choice="1" label="Filing Designation" mandatory="true" max_length="40" name="filing_status" type="choice">
+            <choice>
+                <element label="Initial Request" sequence="0" value="initial"/>
+                <element label="Revised Request" sequence="1" value="revised"/>
+                <element label="Renewal" sequence="2" value="renewal"/>
+            </choice>
+        </element>
+        <element label="Final Signature" max_length="40" name="final_sig" type="boolean"/>
+        <element choice="1" label="First Approval" max_length="40" name="first_approval" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Funding Source" max_length="40" name="hhs_funded" type="boolean"/>
+        <element label="Describe:" max_length="1000" name="hhs_funded_desc" type="string"/>
+        <element label="Honorarium" max_length="40" name="honorarium" type="boolean"/>
+        <element label="Hours per day" max_length="40" name="hours_per_day" type="integer"/>
+        <element label="Initial Signature" max_length="40" name="initial_sig" type="boolean"/>
+        <element label="Initial Submission" max_length="40" name="initial_submission" type="boolean"/>
+        <element label="Non-Travel Related Expenses" max_length="40" name="non_travel" type="boolean"/>
+        <element label="Describe Non-Travel Related Expenses" max_length="1000" name="non_travel_desc" type="string"/>
+        <element label="Describe:" max_length="1000" name="official_duty_desc" type="string"/>
+        <element label="Position Description Attached" max_length="40" name="official_duty_desc_attached" type="boolean"/>
+        <element label="Other" max_length="40" name="other_comp" type="boolean"/>
+        <element label="Other Compensation Description" max_length="1000" name="other_comp_desc" type="string"/>
+        <element label="Contact Person" max_length="50" name="outside_contact" type="string"/>
+        <element label="Describe:" max_length="1000" name="outside_employer_assignments" type="string"/>
+        <element label="Outside Entity Name" max_length="100" name="outside_entity_name" type="string"/>
+        <element label="Title" max_length="40" name="outside_title" type="string"/>
+        <element label="Payor" max_length="1000" name="payor" type="string"/>
+        <element label="Recommend Approval" max_length="40" name="recommend_approval" type="boolean"/>
+        <element label="Recommend Disapproval" max_length="40" name="recommend_disapproval" type="string"/>
+        <element label="Recommend Disapproval" max_length="40" name="rec_disapproval" type="boolean"/>
+        <element label="Retainer" max_length="40" name="retainer" type="boolean"/>
+        <element label="Royalty" max_length="40" name="royalty" type="boolean"/>
+        <element label="Salary" max_length="40" name="salary" type="boolean"/>
+        <element choice="1" label="Second Approval" max_length="40" name="second_approval" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Describe:" max_length="1000" name="self_employed_desc" type="string"/>
+        <element label="Self-Employed Activity" max_length="40" name="self_employed_ind" type="boolean"/>
+        <element label="From" max_length="40" name="start_date" type="glide_date"/>
+        <element choice="1" label="Status" max_length="40" name="status" type="choice">
+            <choice/>
+        </element>
+        <element label="Stock" max_length="40" name="stock" type="boolean"/>
+        <element label="Stock options" max_length="40" name="stock_options" type="boolean"/>
+        <element label="Subject Matter of Activity" max_length="40" name="subject_matter" type="boolean"/>
+        <element label="Statement" max_length="1000" name="supervisor_statement" type="string"/>
+        <element choice="1" label="Travel" max_length="40" name="travel" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="Describe:" max_length="1000" name="travel_desc" type="string"/>
+        <element choice="1" label="Expense Detail" max_length="40" name="travel_detail" type="choice">
+            <choice>
+                <element label="At own Expense" sequence="0" value="at own expense"/>
+                <element label="In-Kind or Reimbursed" sequence="1" value="in-kind or reimbursed"/>
+            </choice>
+        </element>
+        <element choice="1" label="Will work be performed entirely outside of usual working hours?" max_length="40" name="usual_working_hours" type="choice">
+            <choice>
+                <element label="Yes" sequence="0" value="yes"/>
+                <element label="No" sequence="1" value="no"/>
+            </choice>
+        </element>
+        <element label="(If &quot;no,&quot; estimate time you will be absent and indicate type of leave.)" max_length="1000" name="usual_working_hours_desc" type="string"/>
+        <element label="Weeks per year" max_length="40" name="weeks_per_year" type="integer"/>
+    </element>
+</database>

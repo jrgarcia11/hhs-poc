@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="officialcell" label="Cell" language="en" table="x_entg_hhs_poc_outside_activity_annual_report">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>officialcell</element>
+            <help/>
+            <hint/>
+            <label>Cell</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_annual_report</name>
+            <plural>Cells</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-26 16:24:25</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>664a185b4f770700ec6c3cb28110c771</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Cell</sys_name>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_documentation_x_entg_hhs_poc_outside_activity_annual_report_officialcell_en</sys_update_name>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-26 16:24:25</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

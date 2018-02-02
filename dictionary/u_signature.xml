@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element audit="true" label="Signature" max_length="0" name="u_signature" type="collection">
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element dependent="u_source_table" label="Document ID" max_length="32" name="u_document_id" type="document_id"/>
+        <element label="Name" max_length="100" name="u_name" type="string"/>
+        <element calculation="current.u_name_id = current.u_document_id.getDisplayValue() + ' - ' + current.u_name;" label="Name ID" max_length="100" name="u_name_id" type="string" virtual="true"/>
+        <element label="Signature" max_length="4000" name="u_signature" type="string"/>
+        <element label="Source table" max_length="40" name="u_source_table" type="table_name"/>
+        <index name="index">
+            <element name="u_document_id"/>
+        </index>
+    </element>
+</database>

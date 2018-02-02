@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>primary</color>
+        <css/>
+        <display_field>sys_created_by</display_field>
+        <field_list/>
+        <filter table="x_entg_hhs_poc_outside_activity_annual_report">u_reference_6=4d2ece3c4f401b00f78e74828110c708<item display_table="x_entg_hhs_poc_employees" display_value="John Suits" endquery="false" field="u_reference_6" goto="false" newquery="false" operator="=" or="false" value="4d2ece3c4f401b00f78e74828110c708"/>
+        </filter>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>1</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="2">e3529e284f48d700f78e74828110c7c6</sp_column>
+        <sp_page display_value="form_521">e2d998904f4c9700f78e74828110c7ee</sp_page>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>daniyom.haile</sys_created_by>
+        <sys_created_on>2018-01-30 22:26:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>48935a684f48d700f78e74828110c7cf</sys_id>
+        <sys_mod_count>10</sys_mod_count>
+        <sys_name>Form 521 Requests</sys_name>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sp_instance_vlist_48935a684f48d700f78e74828110c7cf</sys_update_name>
+        <sys_updated_by>daniyom.haile</sys_updated_by>
+        <sys_updated_on>2018-01-31 16:58:05</sys_updated_on>
+        <table>x_entg_hhs_poc_outside_activity_annual_report</table>
+        <title>Form 521 Requests</title>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"always_show": {
+		"value": "true",
+		"displayValue": "true"
+	},
+	"panel_body_height": {
+		"value": "",
+		"displayValue": ""
+	},
+	"image_field": {
+		"value": "",
+		"displayValue": ""
+	},
+	"secondary_fields": {
+		"value": "number,state,sys_created_on",
+		"displayValue": "state,sys_created_on,number"
+	},
+	"rounded_images": {
+		"value": "",
+		"displayValue": ""
+	},
+	"list_page": {
+		"value": "",
+		"displayValue": ""
+	},
+	"hide_footer": {
+		"value": "false",
+		"displayValue": "false"
+	},
+	"view": {
+		"value": "",
+		"displayValue": ""
+	}
+}]]></widget_parameters>
+    </sp_instance_vlist>
+</record_update>

@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="" section_id="3f7b85d24fb78300ec6c3cb28110c7aa" sys_domain="global" table="x_entg_hhs_poc_outside_activity_annual_report" version="3" view="Related_List">
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_integer_3</element>
+            <position>0</position>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-01-29 19:31:29</sys_created_on>
+            <sys_id>00e1ec944f449700ec6c3cb28110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="1ef481124fb78300ec6c3cb28110c735">3f7b85d24fb78300ec6c3cb28110c7aa</sys_ui_section>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-01-29 19:31:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_4</element>
+            <position>1</position>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-01-29 19:31:29</sys_created_on>
+            <sys_id>c0e1ec944f449700ec6c3cb28110c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="1ef481124fb78300ec6c3cb28110c735">3f7b85d24fb78300ec6c3cb28110c7aa</sys_ui_section>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-01-29 19:31:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>u_glide_date_5</element>
+            <position>2</position>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-01-29 19:31:29</sys_created_on>
+            <sys_id>44e1ec944f449700ec6c3cb28110c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="1ef481124fb78300ec6c3cb28110c735">3f7b85d24fb78300ec6c3cb28110c7aa</sys_ui_section>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-01-29 19:31:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>3</position>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-01-29 19:31:29</sys_created_on>
+            <sys_id>c4e1ec944f449700ec6c3cb28110c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="1ef481124fb78300ec6c3cb28110c735">3f7b85d24fb78300ec6c3cb28110c7aa</sys_ui_section>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-01-29 19:31:29</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>employee_signed</element>
+            <position>4</position>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-01-29 19:31:29</sys_created_on>
+            <sys_id>48e1ec944f449700ec6c3cb28110c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="1ef481124fb78300ec6c3cb28110c735">3f7b85d24fb78300ec6c3cb28110c7aa</sys_ui_section>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-01-29 19:31:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supervisor_signed</element>
+            <position>5</position>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-01-29 19:31:29</sys_created_on>
+            <sys_id>c8e1ec944f449700ec6c3cb28110c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="1ef481124fb78300ec6c3cb28110c735">3f7b85d24fb78300ec6c3cb28110c7aa</sys_ui_section>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-01-29 19:31:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>official_signed</element>
+            <position>6</position>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-01-29 19:31:29</sys_created_on>
+            <sys_id>4ce1ec944f449700ec6c3cb28110c7d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="1ef481124fb78300ec6c3cb28110c735">3f7b85d24fb78300ec6c3cb28110c7aa</sys_ui_section>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-01-29 19:31:29</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption/>
+            <header>false</header>
+            <name>x_entg_hhs_poc_outside_activity_annual_report</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>jade.garcia</sys_created_by>
+            <sys_created_on>2018-01-23 17:25:29</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f7b85d24fb78300ec6c3cb28110c7aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_entg_hhs_poc_outside_activity_annual_report</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_ui_section_3f7b85d24fb78300ec6c3cb28110c7aa</sys_update_name>
+            <sys_updated_by>jade.garcia</sys_updated_by>
+            <sys_updated_on>2018-01-23 17:25:29</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Related List" name="Related_List">1ef481124fb78300ec6c3cb28110c735</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

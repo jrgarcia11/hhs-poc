@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>email</field>
+        <mandatory>true</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>jade.garcia</sys_created_by>
+        <sys_created_on>2018-01-25 21:22:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>9ae4d84b4f7fc300ec6c3cb28110c78c</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>email</sys_name>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_9ae4d84b4f7fc300ec6c3cb28110c78c</sys_update_name>
+        <sys_updated_by>jade.garcia</sys_updated_by>
+        <sys_updated_on>2018-01-25 21:22:35</sys_updated_on>
+        <table>x_entg_hhs_poc_employees</table>
+        <ui_policy display_value="Mandatory employee email">c9a4dc0b4f7fc300ec6c3cb28110c7e7</ui_policy>
+        <visible>ignore</visible>
+    </sys_ui_policy_action>
+</record_update>

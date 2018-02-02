@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="appointment_type" table="x_entg_hhs_poc_employees" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>PAS/PA</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_employees</name>
+            <sequence>0</sequence>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-23 16:31:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>792ff0de4ffb8300f78e74828110c7ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-23 16:31:33</sys_updated_on>
+            <value>pas/pa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Non-Career SES</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_employees</name>
+            <sequence>1</sequence>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-23 16:31:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b92ff0de4ffb8300f78e74828110c7f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-23 16:31:33</sys_updated_on>
+            <value>non-career ses</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Career SES</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_employees</name>
+            <sequence>2</sequence>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-23 16:31:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>392ff0de4ffb8300f78e74828110c7f1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-23 16:31:33</sys_updated_on>
+            <value>career ses</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Schedule C</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_employees</name>
+            <sequence>3</sequence>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-23 16:31:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b52ff0de4ffb8300f78e74828110c7f2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-23 16:31:33</sys_updated_on>
+            <value>schedule c</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Commissioned Corps</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_employees</name>
+            <sequence>4</sequence>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-23 16:31:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>352ff0de4ffb8300f78e74828110c7f3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-23 16:31:33</sys_updated_on>
+            <value>commissioned corps</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>GS</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_employees</name>
+            <sequence>5</sequence>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-23 16:31:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b12ff0de4ffb8300f78e74828110c7f4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-23 16:31:33</sys_updated_on>
+            <value>gs</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Title 42</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_employees</name>
+            <sequence>6</sequence>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-23 16:31:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>312ff0de4ffb8300f78e74828110c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-23 16:31:33</sys_updated_on>
+            <value>title 42</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>appointment_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_employees</name>
+            <sequence>7</sequence>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-23 16:31:33</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bd2ff0de4ffb8300f78e74828110c7f5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-23 16:31:33</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>appointment_type</element>
+            <name>x_entg_hhs_poc_employees</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>john.suits</sys_created_by>
+            <sys_created_on>2018-01-23 16:31:33</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>752ff0de4ffb8300f78e74828110c7f0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>appointment_type</sys_name>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_choice_x_entg_hhs_poc_employees_appointment_type</sys_update_name>
+            <sys_updated_by>john.suits</sys_updated_by>
+            <sys_updated_on>2018-01-23 16:31:33</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function acceptSignature(){
+	onAcceptSignature();
+	g_form.setValue('initial_sig', true);
+	GlideDialogWindow.get().destroy();
+}
+
+function cancelSignature(){
+	onCancelSignature();
+	GlideDialogWindow.get().destroy();
+}]]></client_script>
+        <description>Accept a user signature written on a signature pad. DO NOT USE UNLESS IN HHS POC</description>
+        <direct>false</direct>
+        <endpoint>x_entg_hhs_poc_accept_signature3.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+	<j:if test="$[jvar_isMSIE8 || jvar_isMSIE7]">
+		<g:requires name="scripts/flashcanvas.jsx" includes="true"/>
+	</j:if>
+	<j:if test="${GlideMobileExtensions.getDeviceType() != 'doctype'}">
+		<g:requires name="scripts/lib/jquery_includes.jsx" includes="true" />
+	</j:if>
+	<g:requires name="scripts/jquery.signaturepad.min.jsx" includes="true" />
+	<g:requires name="scripts/signature_pad.jsx" includes="true" />
+	<!--<g:requires name="scripts/json2.jsx" includes="true" />-->
+	<g:requires name="styles/jquery.signaturepad.cssx" includes="true" />
+	<g:requires name="styles/heisenberg/heisenberg_all.cssx" includes="true" />
+	<g:requires name="scripts/classes/ajax/GlideAjax.jsx" includes="true" />
+
+	<!--<g:ui_form>-->
+		<input type="hidden" id="sysparm_retrieve_signature" value="$[gs.getProperty('com.snc.signaturepad.retrieveSignature')]" />
+		<input type="hidden" id="sysparm_draw_only" value="$[sysparm_draw_only]" />
+		<input type="hidden" id="document_id" name="document_id" value="${sysparm_document_id}"></input>
+		<input type="hidden" id="signature_redirect_url" name="signature_redirect_url" value="$[sysparm_redirect_url]"/>
+		<input type="hidden" id="table_name" name="table_name" value="${sysparm_table_name}"></input>
+		<div class="sigPad">
+			<j:if test="${sysparm_draw_only != 'true'}">
+				<div class="typeItDesc">
+					<label for="name">${gs.getMessage('Print your name')}</label>
+					<input type="text" aria-label="Print your name here to acknowledge or sign the document" name="signed_name" id="signed_name" class="signed_name" maxlength="25"/>
+				</div>
+				<p class="typeItDesc">${gs.getMessage('Review your signature')}</p>
+				<p class="drawItDesc">${gs.getMessage('Draw your signature')}</p>
+				<ul class="nav nav-tabs sn-tabs-basic sigNav">
+					<li class="typeIt"><a href="#type-it" id='typeItLink'>${gs.getMessage('Type it')}</a></li>
+					<li class="drawIt"><a href="#draw-it" id='drawItLink'>${gs.getMessage('Draw it')}</a></li>
+					<a class="clearButton" href="#clear">${gs.getMessage('Clear')}</a>
+				</ul>
+			</j:if>
+			<j:if test="${sysparm_draw_only == 'true'}">
+				<p class="drawItDesc">${gs.getMessage('Draw your signature')}</p>
+				<div class="sigNav">
+					<a class="clearButton" href="#clear">${gs.getMessage('Clear')}</a>
+				</div>
+			</j:if>
+			<div class="sig sigWrapper">
+				<div class="typed"></div>
+				<canvas class="pad"></canvas>
+				<input type="hidden" name="output" class="output"/>
+			</div>
+			<p/>
+			${gs.getMessage('Filling in the following information will constitute your eSignature and will have the same legal impact as signing a printed version of this document.')}
+			<div style="float:right">
+				<button id='cancelSignature' data-dismiss="GlideModal" onclick="cancelSignature();" class="btn btn-default" style="margin-right:10px;">${gs.getMessage('Cancel')}</button>
+			<button id='acceptSignature' onclick="acceptSignature();" class="btn btn-primary">${gs.getMessage('Accept')}</button>
+				<input type="hidden" id="btn_clicked" name="btn_clicked" value="none"></input>
+			</div>
+		</div>
+		<canvas id="typedCanvas" style="display:none;"></canvas>
+	<!--</g:ui_form>-->
+</j:jelly>]]></html>
+        <name>accept_signature3</name>
+        <processing_script><![CDATA[if (btn_clicked == 'ok') {
+	if (signature_redirect_url){
+		response.sendRedirect(signature_redirect_url);	
+	}
+	else 
+		response.sendRedirect(gs.getSession().getStack().bottom());
+	
+	gs.addInfoMessage('The signature has been accepted');
+	//gsftSubmit(null, g_form.getFormElement(), 'certify_sign');
+}
+if (btn_clicked == 'cancel' )
+	current.setAbortAction(true);
+]]></processing_script>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>jade.garcia</sys_created_by>
+        <sys_created_on>2018-01-26 17:03:46</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>3643e0df4f770700ec6c3cb28110c792</sys_id>
+        <sys_mod_count>1</sys_mod_count>
+        <sys_name>accept_signature3</sys_name>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sys_ui_page_3643e0df4f770700ec6c3cb28110c792</sys_update_name>
+        <sys_updated_by>jade.garcia</sys_updated_by>
+        <sys_updated_on>2018-01-26 17:06:55</sys_updated_on>
+    </sys_ui_page>
+</record_update>

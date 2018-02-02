@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="pa_tabs">
+    <pa_tabs action="INSERT_OR_UPDATE">
+        <canvas_page/>
+        <name>New Tab 1</name>
+        <page display_value="PA New Tab 1">ebafa23e4f3bc300ec6c3cb28110c71c</page>
+        <sys_class_name>pa_tabs</sys_class_name>
+        <sys_created_by>kennedy.nguyen</sys_created_by>
+        <sys_created_on>2018-01-25 14:00:09</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>2bafa23e4f3bc300ec6c3cb28110c71d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>New Tab 1</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>pa_tabs_2bafa23e4f3bc300ec6c3cb28110c71d</sys_update_name>
+        <sys_updated_by>kennedy.nguyen</sys_updated_by>
+        <sys_updated_on>2018-01-25 14:00:09</sys_updated_on>
+    </pa_tabs>
+</record_update>

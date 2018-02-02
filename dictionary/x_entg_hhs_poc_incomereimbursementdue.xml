@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="IncomeReimbursementDue" max_length="40" name="x_entg_hhs_poc_incomereimbursementdue" type="collection">
+        <element label="Amount" max_length="40" name="amount" type="integer"/>
+        <element label="Annual report" max_length="32" name="annual_report" reference="x_entg_hhs_poc_outside_activity_annual_report" type="reference"/>
+        <element default="javascript:current.getTableName();" label="Class" max_length="80" name="sys_class_name" type="sys_class_name"/>
+        <element label="Income and/or Reimbursement Type" max_length="40" name="type" type="string"/>
+        <index name="index">
+            <element name="annual_report"/>
+        </index>
+    </element>
+</database>

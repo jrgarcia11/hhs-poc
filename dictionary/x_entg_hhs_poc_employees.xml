@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Employees" max_length="40" name="x_entg_hhs_poc_employees" type="collection">
+        <element label="Agency (Operating/Staff Division)" max_length="40" name="agency" type="string"/>
+        <element label="(Subcomponent)" max_length="40" name="agency_subcomponent" type="string"/>
+        <element choice="1" label="Appointment Type" mandatory="true" max_length="40" name="appointment_type" type="choice">
+            <choice>
+                <element label="PAS/PA" sequence="0" value="pas/pa"/>
+                <element label="Non-Career SES" sequence="1" value="non-career ses"/>
+                <element label="Career SES" sequence="2" value="career ses"/>
+                <element label="Schedule C" sequence="3" value="schedule c"/>
+                <element label="Commissioned Corps" sequence="4" value="commissioned corps"/>
+                <element label="GS" sequence="5" value="gs"/>
+                <element label="Title 42" sequence="6" value="title 42"/>
+                <element label="Other" sequence="7" value="other"/>
+            </choice>
+        </element>
+        <element label="Cell" max_length="40" name="cell" type="string"/>
+        <element label="City" max_length="40" name="city" type="string"/>
+        <element label="Current Annual Report" max_length="32" name="current_annual_report" reference="x_entg_hhs_poc_outside_activity_annual_report" type="reference"/>
+        <element label="Email" max_length="40" name="email" type="string"/>
+        <element label="Fax" max_length="40" name="fax" type="string"/>
+        <element label="Federal Salary" max_length="20" name="federal_salary" type="currency"/>
+        <element choice="1" label="Financial Disclosure Filing Status" max_length="40" name="filing_status" type="choice">
+            <choice>
+                <element label="Public (OGE 278)" sequence="0" value="public"/>
+                <element label="Confidential (OGE 450)" sequence="1" value="confidential"/>
+            </choice>
+        </element>
+        <element label="Grade/Step" max_length="40" name="grade_step" type="string"/>
+        <element label="Employee's Name (Last, First, MI)" max_length="40" name="name" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Other Description" max_length="1000" name="other_desc" type="string"/>
+        <element label="Title of Position" max_length="40" name="position_title" type="string"/>
+        <element choice="3" default="md" label="State" max_length="40" name="state" type="choice">
+            <choice>
+                <element label="MD" sequence="0" value="md"/>
+                <element label="VA" sequence="1" value="va"/>
+                <element label="PA" sequence="2" value="pa"/>
+            </choice>
+        </element>
+        <element label="Street" max_length="40" name="street" type="string"/>
+        <element label="Cell" max_length="40" name="supervisor_cell" type="string"/>
+        <element label="Email" max_length="40" name="supervisor_email" type="string"/>
+        <element label="Fax" max_length="40" name="supervisor_fax" type="string"/>
+        <element label="Name of Immediate Supervisor" max_length="40" name="supervisor_name" type="string"/>
+        <element label="Telephone" max_length="40" name="supervisor_telephone" type="string"/>
+        <element label="Title of Supervisor" max_length="40" name="supervisor_title" type="string"/>
+        <element label="Telephone" max_length="40" name="telephone" type="string"/>
+        <element label="User ref" max_length="32" name="user_ref" reference="sys_user" type="reference"/>
+        <element label="Zip" max_length="40" name="zip" type="string"/>
+        <index name="index">
+            <element name="current_annual_report"/>
+        </index>
+        <index name="index2">
+            <element name="user_ref"/>
+        </index>
+    </element>
+</database>

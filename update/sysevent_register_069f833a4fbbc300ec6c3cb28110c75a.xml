@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description>Sends email to selected employees on the employee list to fill out annual report</description>
+        <event_name>x_entg_hhs_poc.remind_employees</event_name>
+        <fired_by>UI Action List Choice "Email employees"</fired_by>
+        <queue/>
+        <suffix>remind_employees</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>jade.garcia</sys_created_by>
+        <sys_created_on>2018-01-25 16:22:35</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>069f833a4fbbc300ec6c3cb28110c75a</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>x_entg_hhs_poc.remind_employees</sys_name>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sysevent_register_069f833a4fbbc300ec6c3cb28110c75a</sys_update_name>
+        <sys_updated_by>jade.garcia</sys_updated_by>
+        <sys_updated_on>2018-01-25 18:40:34</sys_updated_on>
+        <table>x_entg_hhs_poc_employees</table>
+    </sysevent_register>
+</record_update>

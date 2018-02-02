@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_entg_hhs_poc.employee_signature</event_name>
+        <fired_by>accept_signature3 global UI Page</fired_by>
+        <queue/>
+        <suffix>employee_signature</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>jade.garcia</sys_created_by>
+        <sys_created_on>2018-01-26 19:05:16</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6cedf05f4fb70700ec6c3cb28110c702</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_entg_hhs_poc.employee_signature</sys_name>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sysevent_register_6cedf05f4fb70700ec6c3cb28110c702</sys_update_name>
+        <sys_updated_by>jade.garcia</sys_updated_by>
+        <sys_updated_on>2018-01-26 19:05:16</sys_updated_on>
+        <table>x_entg_hhs_poc_outside_activity_annual_report</table>
+    </sysevent_register>
+</record_update>

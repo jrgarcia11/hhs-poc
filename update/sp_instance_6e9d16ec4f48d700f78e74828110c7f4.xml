@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">7f6d16ec4f48d700f78e74828110c779</sp_column>
+        <sp_widget display_value="OIG  Header">eb6adc904f4c9700f78e74828110c70f</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>daniyom.haile</sys_created_by>
+        <sys_created_on>2018-01-30 23:10:32</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>6e9d16ec4f48d700f78e74828110c7f4</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sp_instance_6e9d16ec4f48d700f78e74828110c7f4</sys_update_name>
+        <sys_updated_by>daniyom.haile</sys_updated_by>
+        <sys_updated_on>2018-01-30 23:12:51</sys_updated_on>
+        <title/>
+        <url/>
+        <widget_parameters><![CDATA[{
+	"h1": {
+		"value": "Form 520 - Request for Approval of Outside Activity",
+		"displayValue": "Form 520 - Request for Approval of Outside Activity"
+	},
+	"h4": {
+		"value": "Standards of Ethical Conduct Regulation",
+		"displayValue": "Standards of Ethical Conduct Regulation"
+	},
+	"p": {
+		"value": "(5 CFR 2635.803, 5 CFR 5501.106(d))",
+		"displayValue": "(5 CFR 2635.803, 5 CFR 5501.106(d))"
+	},
+	"h4_2": {
+		"value": "HHS Supplemental Ethics Regulation",
+		"displayValue": "HHS Supplemental Ethics Regulation"
+	}
+}]]></widget_parameters>
+    </sp_instance>
+</record_update>
