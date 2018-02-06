@@ -3,159 +3,103 @@
     <sys_ui_section caption="Outside Activities" section_id="f46e2aea4ff7c300f78e74828110c7e4" sys_domain="global" table="x_entg_hhs_poc_outside_activity_annual_report" version="3" view="">
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>b9b764d84f449700ec6c3cb28110c704</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:38:35</sys_created_on>
+            <sys_id>de49b07a4f001300420f30318110c796</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:38:35</sys_updated_on>
             <text>1. Outside Activity List - List below all outside activities for which prior approval is required that were approved or undertaken within the last calendar year. Provide the date of approval, identify the person for whom or the organization with which the activity was to be conducted, and check the box marked if the activity was actually performed.</text>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>bdb764d84f449700ec6c3cb28110c704</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:38:35</sys_created_on>
+            <sys_id>d649b07a4f001300420f30318110c797</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:38:35</sys_updated_on>
             <text>2. Duration - Provide, for each outside activity actually performed, the beginning date of the relationship with the outside entity, the dates(s) personal services were provided, and the total number of hours spent and leave used on the activity in the last calendar year. Specify the ending date; or for an ongoing activity, indicate how long the activity may continue and the date prior approval expires. Check whether renewal is anticipated.</text>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>b1b764d84f449700ec6c3cb28110c705</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:38:35</sys_created_on>
+            <sys_id>da49b07a4f001300420f30318110c797</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:38:35</sys_updated_on>
             <text>3. Income and/or Reimbursements Paid - Provide, for each outside activity actually performed, the type and amount of any income and/or reimbursement actually received during the last calendar year and the date paid.</text>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>b5b764d84f449700ec6c3cb28110c705</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:38:35</sys_created_on>
+            <sys_id>de49b07a4f001300420f30318110c797</sys_id>
             <sys_mod_count>0</sys_mod_count>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:38:35</sys_updated_on>
             <text>4. Income and/or Reimbursements Due - In the line that corresponds to the same letter that identifies the activity above, provide, for each outside activity actually performed, the type and amount of any income and/or reimbursements earned during or attributable to the last calendar year that were not in fact received during the reporting period and remain due, and indicate the expected date of payment.</text>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>b9b764d84f449700ec6c3cb28110c704</element>
+            <element>de49b07a4f001300420f30318110c796</element>
             <position>0</position>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>79b764d84f449700ec6c3cb28110c705</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:38:35</sys_created_on>
+            <sys_id>9249b07a4f001300420f30318110c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Activities" display_value="Outside Activities" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="Default view">f46e2aea4ff7c300f78e74828110c7e4</sys_ui_section>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:38:35</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>12M.x_entg_hhs_poc_outside_activity_annual_report.x_entg_hhs_poc_outside_activity_request.annual_report</element>
+            <element>d649b07a4f001300420f30318110c797</element>
             <position>1</position>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>f9b764d84f449700ec6c3cb28110c705</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:38:35</sys_created_on>
+            <sys_id>1649b07a4f001300420f30318110c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Activities" display_value="Outside Activities" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="Default view">f46e2aea4ff7c300f78e74828110c7e4</sys_ui_section>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:38:35</sys_updated_on>
             <sys_user/>
-            <type>list</type>
+            <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>bdb764d84f449700ec6c3cb28110c704</element>
+            <element>da49b07a4f001300420f30318110c797</element>
             <position>2</position>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>7db764d84f449700ec6c3cb28110c705</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:38:35</sys_created_on>
+            <sys_id>9649b07a4f001300420f30318110c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Activities" display_value="Outside Activities" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="Default view">f46e2aea4ff7c300f78e74828110c7e4</sys_ui_section>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:38:35</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>12M.x_entg_hhs_poc_outside_activity_annual_report.x_entg_hhs_poc_duration.annual_report</element>
+            <element>de49b07a4f001300420f30318110c797</element>
             <position>3</position>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>fdb764d84f449700ec6c3cb28110c705</sys_id>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:38:35</sys_created_on>
+            <sys_id>1a49b07a4f001300420f30318110c798</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Outside Activities" display_value="Outside Activities" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="Default view">f46e2aea4ff7c300f78e74828110c7e4</sys_ui_section>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
-            <sys_user/>
-            <type>list</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>b1b764d84f449700ec6c3cb28110c705</element>
-            <position>4</position>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>71b764d84f449700ec6c3cb28110c706</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Outside Activities" display_value="Outside Activities" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="Default view">f46e2aea4ff7c300f78e74828110c7e4</sys_ui_section>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:38:35</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>12M.x_entg_hhs_poc_outside_activity_annual_report.x_entg_hhs_poc_incomereimbursementpaid.annual_report</element>
-            <position>5</position>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>f1b764d84f449700ec6c3cb28110c706</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Outside Activities" display_value="Outside Activities" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="Default view">f46e2aea4ff7c300f78e74828110c7e4</sys_ui_section>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
-            <sys_user/>
-            <type>list</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>b5b764d84f449700ec6c3cb28110c705</element>
-            <position>6</position>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>75b764d84f449700ec6c3cb28110c706</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Outside Activities" display_value="Outside Activities" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="Default view">f46e2aea4ff7c300f78e74828110c7e4</sys_ui_section>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
-            <sys_user/>
-            <type>annotation</type>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>12M.x_entg_hhs_poc_outside_activity_annual_report.x_entg_hhs_poc_incomereimbursementdue.annual_report</element>
-            <position>7</position>
-            <sys_created_by>jade.garcia</sys_created_by>
-            <sys_created_on>2018-01-29 19:57:00</sys_created_on>
-            <sys_id>f5b764d84f449700ec6c3cb28110c706</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="Outside Activities" display_value="Outside Activities" name="x_entg_hhs_poc_outside_activity_annual_report" sys_domain="global" view="Default view">f46e2aea4ff7c300f78e74828110c7e4</sys_ui_section>
-            <sys_updated_by>jade.garcia</sys_updated_by>
-            <sys_updated_on>2018-01-29 19:57:00</sys_updated_on>
-            <sys_user/>
-            <type>list</type>
         </sys_ui_element>
         <sys_ui_section action="INSERT_OR_UPDATE">
             <caption>Outside Activities</caption>

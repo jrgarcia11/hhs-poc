@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_form_sections form_id="2eb11e764fc01300420f30318110c764" sys_domain="global" table="x_entg_hhs_poc_outside_activity_report_521" version="3">
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 22:04:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>22b11e764fc01300420f30318110c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_entg_hhs_poc_outside_activity_report_521" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">2eb11e764fc01300420f30318110c764</sys_ui_form>
+            <sys_ui_section caption="NULL" display_value="" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">10ff8e364fc01300420f30318110c792</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:04:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 22:04:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eab11e764fc01300420f30318110c767</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_entg_hhs_poc_outside_activity_report_521" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">2eb11e764fc01300420f30318110c764</sys_ui_form>
+            <sys_ui_section caption="Outside Activities" display_value="Outside Activities" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">eeb11e764fc01300420f30318110c762</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:04:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 22:04:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>eeb11e764fc01300420f30318110c76a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_entg_hhs_poc_outside_activity_report_521" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">2eb11e764fc01300420f30318110c764</sys_ui_form>
+            <sys_ui_section caption="Employee Questions" display_value="Employee Questions" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">e6b11e764fc01300420f30318110c763</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:04:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 22:04:59</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6b11e764fc01300420f30318110c76e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_entg_hhs_poc_outside_activity_report_521" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">2eb11e764fc01300420f30318110c764</sys_ui_form>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">eeb11e764fc01300420f30318110c763</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:04:59</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form_section action="INSERT_OR_UPDATE">
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 22:10:47</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e3035ab64fc01300420f30318110c7c9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_overrides/>
+            <sys_ui_form display_value="x_entg_hhs_poc_outside_activity_report_521" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">2eb11e764fc01300420f30318110c764</sys_ui_form>
+            <sys_ui_section caption="Official Review" display_value="Official Review" name="x_entg_hhs_poc_outside_activity_report_521" sys_domain="global" view="Default view">23031ab64fc01300420f30318110c7e6</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:10:47</sys_updated_on>
+        </sys_ui_form_section>
+        <sys_ui_form action="INSERT_OR_UPDATE">
+            <name>x_entg_hhs_poc_outside_activity_report_521</name>
+            <roles/>
+            <sys_class_name>sys_ui_form</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 22:04:59</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2eb11e764fc01300420f30318110c764</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>x_entg_hhs_poc_outside_activity_report_521</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_ui_form_sections_2eb11e764fc01300420f30318110c764</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 22:04:59</sys_updated_on>
+            <sys_user/>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_form>
+    </sys_ui_form_sections>
+</record_update>

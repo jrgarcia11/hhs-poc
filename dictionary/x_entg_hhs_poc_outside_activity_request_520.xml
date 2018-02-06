@@ -12,6 +12,7 @@
             </choice>
         </element>
         <element label="Activity type desc" max_length="40" name="activity_type_desc" type="string"/>
+        <element label="Annual report" max_length="32" name="annual_report" read_only="true" reference="x_entg_hhs_poc_outside_activity_annual_report" type="reference"/>
         <element label="Approval recommendation" max_length="40" name="approval_recommendation" type="boolean"/>
         <element label="Comments" max_length="200" name="comments" type="string"/>
         <element choice="1" label="Compensated" max_length="40" name="compensated" type="boolean">
@@ -125,6 +126,9 @@
         </index>
         <index name="index2">
             <element name="employee"/>
+        </index>
+        <index name="index3">
+            <element name="annual_report"/>
         </index>
     </element>
 </database>

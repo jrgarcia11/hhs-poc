@@ -100,8 +100,6 @@
         </element>
         <element label="Extension Date" max_length="40" name="u_glide_date_4" type="glide_date"/>
         <element label="Date Report Filed" max_length="40" name="u_glide_date_5" type="glide_date"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="New List" max_length="1024" name="u_glide_list_1" reference="x_entg_hhs_poc_outside_activity_request" type="glide_list"/>
-        <element attributes="no_sort=true,slushbucket_ref_no_expand=true" label="Outside Activities" max_length="1024" name="u_glide_list_2" reference="x_entg_hhs_poc_outside_activity_request" type="glide_list"/>
         <element label="Icon 16" max_length="100" name="u_icon_16" type="icon"/>
         <element label="Zip" max_length="40" name="u_integer_24" type="integer"/>
         <element label="Calendar year reporting period" max_length="40" name="u_integer_3" type="integer"/>
