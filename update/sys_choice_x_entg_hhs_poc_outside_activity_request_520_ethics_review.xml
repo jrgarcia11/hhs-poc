@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="ethics_review" table="x_entg_hhs_poc_outside_activity_request_520" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethics_review</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:08:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f52fcf24f001300420f30318110c796</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:08:22</sys_updated_on>
+            <value>approved</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethics_review</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Approved with Comments</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:08:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bf52fcf24f001300420f30318110c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:08:22</sys_updated_on>
+            <value>approved_with_comments</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethics_review</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Denied</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence>2</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:08:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3f52fcf24f001300420f30318110c798</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:08:22</sys_updated_on>
+            <value>denied</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>ethics_review</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Disposition</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence>3</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:08:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>bb52fcf24f001300420f30318110c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:08:22</sys_updated_on>
+            <value>disposition</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>ethics_review</element>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:08:22</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>7b52fcf24f001300420f30318110c797</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>ethics_review</sys_name>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_choice_x_entg_hhs_poc_outside_activity_request_520_ethics_review</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:08:22</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

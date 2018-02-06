@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="link_generator_reader" name="link_generator_reader">d3e7446e0b1232004bbf6f3ef6673a0a</role>
+        <role display_value="">d3e7446e0b1232004bbf6f3ef6673a0a</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2018-01-25 02:47:52</sys_created_on>

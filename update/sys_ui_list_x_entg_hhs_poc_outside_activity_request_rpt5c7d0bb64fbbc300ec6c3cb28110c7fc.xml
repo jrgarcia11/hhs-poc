@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>state</element>
-            <list_id display_value="x_entg_hhs_poc_outside_activity_request" element="NULL" name="x_entg_hhs_poc_outside_activity_request" parent="NULL" relationship="NULL" sys_domain="global" view="0c8d4bb64fbbc300ec6c3cb28110c71b">729e9c144f449700ec6c3cb28110c787</list_id>
+            <list_id display_value="x_entg_hhs_poc_outside_activity_request" element="NULL" name="x_entg_hhs_poc_outside_activity_request" parent="NULL" relationship="NULL" sys_domain="global" view="ade4efd24f001300420f30318110c70e">729e9c144f449700ec6c3cb28110c787</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>number</element>
-            <list_id display_value="x_entg_hhs_poc_outside_activity_request" element="NULL" name="x_entg_hhs_poc_outside_activity_request" parent="NULL" relationship="NULL" sys_domain="global" view="0c8d4bb64fbbc300ec6c3cb28110c71b">729e9c144f449700ec6c3cb28110c787</list_id>
+            <list_id display_value="x_entg_hhs_poc_outside_activity_request" element="NULL" name="x_entg_hhs_poc_outside_activity_request" parent="NULL" relationship="NULL" sys_domain="global" view="ade4efd24f001300420f30318110c70e">729e9c144f449700ec6c3cb28110c787</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>employee</element>
-            <list_id display_value="x_entg_hhs_poc_outside_activity_request" element="NULL" name="x_entg_hhs_poc_outside_activity_request" parent="NULL" relationship="NULL" sys_domain="global" view="0c8d4bb64fbbc300ec6c3cb28110c71b">729e9c144f449700ec6c3cb28110c787</list_id>
+            <list_id display_value="x_entg_hhs_poc_outside_activity_request" element="NULL" name="x_entg_hhs_poc_outside_activity_request" parent="NULL" relationship="NULL" sys_domain="global" view="ade4efd24f001300420f30318110c70e">729e9c144f449700ec6c3cb28110c787</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>priority</element>
-            <list_id display_value="x_entg_hhs_poc_outside_activity_request" element="NULL" name="x_entg_hhs_poc_outside_activity_request" parent="NULL" relationship="NULL" sys_domain="global" view="0c8d4bb64fbbc300ec6c3cb28110c71b">729e9c144f449700ec6c3cb28110c787</list_id>
+            <list_id display_value="x_entg_hhs_poc_outside_activity_request" element="NULL" name="x_entg_hhs_poc_outside_activity_request" parent="NULL" relationship="NULL" sys_domain="global" view="ade4efd24f001300420f30318110c70e">729e9c144f449700ec6c3cb28110c787</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -88,7 +88,7 @@
             <sys_updated_by>jade.garcia</sys_updated_by>
             <sys_updated_on>2018-01-29 19:17:12</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt5c7d0bb64fbbc300ec6c3cb28110c7fc" name="RPT5c7d0bb64fbbc300ec6c3cb28110c7fc">0c8d4bb64fbbc300ec6c3cb28110c71b</view>
+            <view display_value="Rpt5c7d0bb64fbbc300ec6c3cb28110c7fc" name="RPT5c7d0bb64fbbc300ec6c3cb28110c7fc">ade4efd24f001300420f30318110c70e</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>

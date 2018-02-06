@@ -1,0 +1,1498 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Outside Activity Information" section_id="c77bb7d64f401300420f30318110c70f" sys_domain="global" table="x_entg_hhs_poc_outside_activity_request_520" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>86257c764f001300420f30318110c778</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>Nature of Outside Activity</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>8a257c764f001300420f30318110c778</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>Indicate the type of activity for which you request prior approval, and describe fully the specific duties or services to be performed.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>8e257c764f001300420f30318110c778</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>If you will provide personal services or products directly to multiple clients, patients, customers, or others, as a self-employed individual or as an
+independent contractor, alone or jointly with others, check the box below and specify the type of activity or business in which you propose to be
+engaged, such as legal, medical, accounting, or sales (specify industry or economic sector) and identify any partners or others with whom you provide
+services or products jointly. Estimate the total number of clients, patients, customers, or persons to whom you would provide services or products
+during the activity period, rather than listing them in Part II, Item 2.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>82257c764f001300420f30318110c779</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>For activities involving teaching, speaking, or writing, provide a syllabus, outline, summary, synopsis, draft, or similar description of the content and
+subject matter involved in the course, speech, or written product (including, if available, a copy of the text of any speech) and the proposed text of any
+disclaimer that indicates that the views expressed do not necessarily represent the views of the agency or the United States. Check the applicable
+boxes indicating that these materials are attached. If you are unable to provide this information, or will be delayed in submitting the attachments,
+please explain below.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>86257c764f001300420f30318110c779</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>Outside Employer or Other Entity</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>8a257c764f001300420f30318110c779</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>Identify the outside employer or other person for whom or organization for which the proposed activity will be performed or conducted. Give the name
+and title of a contact person. In Items 3 and 4, provide address and contact information for the outside entity.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>8e257c764f001300420f30318110c779</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>Outside Entity Address</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>82257c764f001300420f30318110c77a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>Contact Information</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>86257c764f001300420f30318110c77a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>Location</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:32</sys_created_on>
+            <sys_id>8a257c764f001300420f30318110c77a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:32</sys_updated_on>
+            <text>Indicate the location where the activity or services will be performed.</text>
+            <type display_value="Info Box Blue">753f88a80f930000b12e6903cfe01206</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>8e257c764f001300420f30318110c77a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Travel</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>82257c764f001300420f30318110c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Indicate whether travel is involved, and if so, whether the transportation, lodging, meals, or per diem will be at your own expense or provided by the
+outside entity in kind or through reimbursement. Describe arrangements and provide estimated costs of items to be furnished or reimbursed by the
+outside entity.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>86257c764f001300420f30318110c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Time</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>8a257c764f001300420f30318110c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Provide details with respect to the duration, frequency, and timing of the activity. If your request for prior approval is granted, the approval is effective for
+a period not to exceed one year from the date of approval. If you wish to continue an activity beyond the one year approval period, you must renew your
+request no later than thirty days prior to the expiration of the period authorized.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>8e257c764f001300420f30318110c77b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Compensation</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>82257c764f001300420f30318110c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Indicate whether the activity is compensated, and if so, answer the questions below.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>86257c764f001300420f30318110c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Method or Basis of Compensation (Check all that apply)</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>8a257c764f001300420f30318110c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Indicate the total amount of compensation to be received for the proposed activity for the period covered by this request. Do not include the amount of
+any travel expenses to be provided by the outside entity that were reported in Part II, Item 6.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>8e257c764f001300420f30318110c77c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>If any compensation will be received from a payor other than the entity to which personal services will be provided, identify the payor and explain.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>82257c764f001300420f30318110c77d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Indicate whether any compensation is derived from an HHS grant, contract, cooperative agreement, or other source of HHS funding or if the services
+to be performed are related to an activity funded by HHS, regardless of the specific source of the compensation.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>86257c764f001300420f30318110c77d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>For activities involving the provision of consultative or professional services, indicate whether the client, employer, or other person on whose behalf
+the services are performed is receiving, or intends to seek, an HHS grant, contract, cooperative agreement, or other funding relationship.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>8a257c764f001300420f30318110c77d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Identify the source, activity, amount and date of any compensation received, or due for services performed, within the last six calendar years and the
+current year through the date this request is submitted, from the person for whom or the organization with which the current work or activity will be
+done (including any amount received or due from an agent, affiliate, parent, subsidiary, or predecessor of the proposed payor). This information must
+be provided as to any outside activity performed for the person or organization that is the subject of this request for approval. Include any prior
+activity that is the same or similar to the present request, as well as any unrelated activity involving the same source.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>86257c764f001300420f30318110c778</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c77d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8a257c764f001300420f30318110c778</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c77d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity_type</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>activity_type_desc</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8e257c764f001300420f30318110c778</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>self_employed_ind</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>self_employed_desc</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>82257c764f001300420f30318110c779</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>subject_matter</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c77e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disclaimer_text</element>
+            <position>11</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>12</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>explanation</element>
+            <position>13</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>86257c764f001300420f30318110c779</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8a257c764f001300420f30318110c779</element>
+            <position>15</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outside_entity_name</element>
+            <position>16</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>17</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c77f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outside_contact</element>
+            <position>18</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>19</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>outside_title</element>
+            <position>20</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>21</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8e257c764f001300420f30318110c779</element>
+            <position>22</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_street</element>
+            <position>23</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>24</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_city</element>
+            <position>25</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c780</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>26</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_state</element>
+            <position>27</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_zip</element>
+            <position>28</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>29</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>82257c764f001300420f30318110c77a</element>
+            <position>30</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>31</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_telephone</element>
+            <position>32</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_cell</element>
+            <position>33</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c781</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>34</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_fax</element>
+            <position>35</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>entity_email</element>
+            <position>36</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>37</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>86257c764f001300420f30318110c77a</element>
+            <position>38</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8a257c764f001300420f30318110c77a</element>
+            <position>39</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>location</element>
+            <position>40</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8e257c764f001300420f30318110c77a</element>
+            <position>41</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c782</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>82257c764f001300420f30318110c77b</element>
+            <position>42</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel</element>
+            <position>43</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>44</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel_detail</element>
+            <position>45</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>46</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>estimated_amount</element>
+            <position>47</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>48</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>travel_desc</element>
+            <position>49</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c783</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>86257c764f001300420f30318110c77b</element>
+            <position>50</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8a257c764f001300420f30318110c77b</element>
+            <position>51</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>52</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>start_date</element>
+            <position>53</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hours_per_day</element>
+            <position>54</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>55</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>end_date</element>
+            <position>56</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>days_per_week</element>
+            <position>57</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>weeks_per_year</element>
+            <position>58</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>59</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>usual_working_hours</element>
+            <position>60</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>usual_working_hours_desc</element>
+            <position>61</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8e257c764f001300420f30318110c77b</element>
+            <position>62</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>82257c764f001300420f30318110c77c</element>
+            <position>63</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compensated</element>
+            <position>64</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>86257c764f001300420f30318110c77c</element>
+            <position>65</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c785</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.begin_split</element>
+            <position>66</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.begin_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>compensation_method</element>
+            <position>67</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>non_travel</element>
+            <position>68</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>non_travel_desc</element>
+            <position>69</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.split</element>
+            <position>70</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_comp</element>
+            <position>71</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>other_comp_desc</element>
+            <position>72</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>.end_split</element>
+            <position>73</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c786</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>.end_split</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8a257c764f001300420f30318110c77c</element>
+            <position>74</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>comp_amount</element>
+            <position>75</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8e257c764f001300420f30318110c77c</element>
+            <position>76</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>payor</element>
+            <position>77</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>82257c764f001300420f30318110c77d</element>
+            <position>78</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4a257c764f001300420f30318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hhs_funded</element>
+            <position>79</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ca257c764f001300420f30318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>hhs_funded_desc</element>
+            <position>80</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>4e257c764f001300420f30318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>86257c764f001300420f30318110c77d</element>
+            <position>81</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>ce257c764f001300420f30318110c787</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consultation</element>
+            <position>82</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>42257c764f001300420f30318110c788</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>consultation_desc</element>
+            <position>83</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c2257c764f001300420f30318110c788</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>8a257c764f001300420f30318110c77d</element>
+            <position>84</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>46257c764f001300420f30318110c788</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12M.x_entg_hhs_poc_outside_activity_request_520.x_entg_hhs_poc_prior_outside_activity.current_outside_activity</element>
+            <position>85</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>c6257c764f001300420f30318110c788</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Outside Activity Information" display_value="Outside Activity Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">c77bb7d64f401300420f30318110c70f</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>list</type>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Outside Activity Information</caption>
+            <header>false</header>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 16:30:04</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c77bb7d64f401300420f30318110c70f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Outside Activity Information</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_ui_section_c77bb7d64f401300420f30318110c70f</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 16:30:04</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>

@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Prior Outside Activity" max_length="40" name="x_entg_hhs_poc_prior_outside_activity" type="collection">
+        <element label="Current Outside Activity" max_length="32" name="current_outside_activity" reference="x_entg_hhs_poc_outside_activity_request_520" type="reference"/>
+        <element label="Prior Outside Activity" max_length="32" name="prior_outside_activity" reference="x_entg_hhs_poc_outside_activity_request_520" type="reference"/>
+        <index name="index">
+            <element name="prior_outside_activity"/>
+        </index>
+        <index name="index2">
+            <element name="current_outside_activity"/>
+        </index>
+    </element>
+</database>

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Outside Activity Annual Report" max_length="40" name="x_entg_hhs_poc_outside_activity_annual_report" sizeclass="10" type="collection">
+    <element extends="task" label="Outside Activity Annual Report" max_length="40" name="x_entg_hhs_poc_outside_activity_annual_report" type="collection">
         <element label="Calender year" max_length="40" name="calender_year" type="integer"/>
         <element label="Date filed" max_length="40" name="date_filed" type="glide_date"/>
         <element choice="1" label="Different duties" max_length="40" name="different_duties" type="choice">
@@ -68,7 +68,7 @@
                 <element label="None" sequence="2" value="none"/>
             </choice>
         </element>
-        <element attributes="edge_encryption_enabled=true" choice="1" label="a. Have you been appointed or reassigned to a different Federal position within " max_length="40" name="u_choice_4" type="string">
+        <element attributes="edge_encryption_enabled=true" choice="1" label="a. Have you been appointed or reassigned to a different Federal position within" max_length="40" name="u_choice_4" type="string">
             <choice>
                 <element label="Yes" sequence="0" value="yes"/>
                 <element label="No" sequence="1" value="no"/>

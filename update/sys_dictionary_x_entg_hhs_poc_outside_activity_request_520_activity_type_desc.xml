@@ -55,7 +55,7 @@
         <sys_created_by>jade.garcia</sys_created_by>
         <sys_created_on>2018-02-02 21:03:03</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>67c941694f8c1b00ec6c3cb28110c75f</sys_id>
+        <sys_id>7c58eb5a4f001300420f30318110c7bd</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Activity type desc</sys_name>
         <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
@@ -63,8 +63,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
         <sys_update_name>sys_dictionary_x_entg_hhs_poc_outside_activity_request_520_activity_type_desc</sys_update_name>
-        <sys_updated_by>jade.garcia</sys_updated_by>
-        <sys_updated_on>2018-02-02 21:03:03</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-05 15:07:00</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

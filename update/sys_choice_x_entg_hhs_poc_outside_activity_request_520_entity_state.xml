@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="entity_state" table="x_entg_hhs_poc_outside_activity_request_520" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>entity_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>MD</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:54:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9643bf924f401300420f30318110c750</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:54:45</sys_updated_on>
+            <value>md</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>entity_state</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>VA</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:54:06</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2f27b924f401300420f30318110c76c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:54:06</sys_updated_on>
+            <value>va</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>entity_state</element>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:54:06</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>0443bf524f401300420f30318110c7a3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>entity_state</sys_name>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_choice_x_entg_hhs_poc_outside_activity_request_520_entity_state</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:54:06</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

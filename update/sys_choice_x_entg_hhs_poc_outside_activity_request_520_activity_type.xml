@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="activity_type" table="x_entg_hhs_poc_outside_activity_request_520" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Professional or Consultative</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:58:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e404f7d24f401300420f30318110c72f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:58:09</sys_updated_on>
+            <value>activities</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Board Service</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 16:00:03</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bf3fb924f401300420f30318110c7d5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 16:00:13</sys_updated_on>
+            <value>board_service</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Expert Witness</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:58:40</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fc4433924f401300420f30318110c7a2</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:58:54</sys_updated_on>
+            <value>expert_witness</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Other</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:59:05</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7754bbd24f401300420f30318110c74d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:59:05</sys_updated_on>
+            <value>other</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>activity_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Teaching</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:58:26</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f034b7d24f401300420f30318110c7d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:58:26</sys_updated_on>
+            <value>teaching</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>activity_type</element>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:58:09</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>d3247b924f401300420f30318110c7bf</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>activity_type</sys_name>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_choice_x_entg_hhs_poc_outside_activity_request_520_activity_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:58:09</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

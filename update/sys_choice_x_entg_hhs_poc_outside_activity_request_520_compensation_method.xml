@@ -1,0 +1,175 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="compensation_method" table="x_entg_hhs_poc_outside_activity_request_520" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compensation_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Advance</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:46:45</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ce8173924f401300420f30318110c7a8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:46:45</sys_updated_on>
+            <value>advance</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compensation_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Fee</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:45:52</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a131bf524f401300420f30318110c7e1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:45:52</sys_updated_on>
+            <value>fee</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compensation_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Honorarium</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:46:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1613f524f401300420f30318110c7c0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:46:12</sys_updated_on>
+            <value>honorarium</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compensation_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Retainer</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:46:22</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>197173924f401300420f30318110c738</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:46:22</sys_updated_on>
+            <value>retainer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compensation_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Royalty</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:46:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2d9137124f401300420f30318110c7d6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:46:57</sys_updated_on>
+            <value>royalty</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compensation_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Salary</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:46:31</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>d771bf524f401300420f30318110c79a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:46:31</sys_updated_on>
+            <value>salary</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compensation_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stock</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:47:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a0a1bf524f401300420f30318110c79d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:47:11</sys_updated_on>
+            <value>stock</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>compensation_method</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Stock  Options</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:47:29</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b7a133924f401300420f30318110c799</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:47:29</sys_updated_on>
+            <value>stock_options</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>compensation_method</element>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 15:45:52</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>1b51f3524f401300420f30318110c708</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>compensation_method</sys_name>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_choice_x_entg_hhs_poc_outside_activity_request_520_compensation_method</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 15:45:52</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

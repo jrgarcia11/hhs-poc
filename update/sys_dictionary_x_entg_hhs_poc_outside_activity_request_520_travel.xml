@@ -33,7 +33,7 @@
         <foreign_database/>
         <function_definition/>
         <function_field>false</function_field>
-        <internal_type display_value="Choice">choice</internal_type>
+        <internal_type display_value="">boolean</internal_type>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
         <name>x_entg_hhs_poc_outside_activity_request_520</name>
@@ -55,16 +55,16 @@
         <sys_created_by>jade.garcia</sys_created_by>
         <sys_created_on>2018-02-02 21:33:17</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>5f6365e54fcc1b00ec6c3cb28110c7f6</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_id>09582f5a4f001300420f30318110c715</sys_id>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>Travel</sys_name>
         <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
         <sys_update_name>sys_dictionary_x_entg_hhs_poc_outside_activity_request_520_travel</sys_update_name>
-        <sys_updated_by>jade.garcia</sys_updated_by>
-        <sys_updated_on>2018-02-02 21:33:17</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-05 16:09:44</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

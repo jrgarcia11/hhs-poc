@@ -2,7 +2,7 @@
 <record_update table="sys_embedded_help_role">
     <sys_embedded_help_role action="INSERT_OR_UPDATE">
         <order>1000</order>
-        <role display_value="sn_hr_core.content_reader" name="sn_hr_core.content_reader">2cf57be2c3033200a669d73bf3d3ae2c</role>
+        <role display_value="">2cf57be2c3033200a669d73bf3d3ae2c</role>
         <sys_class_name>sys_embedded_help_role</sys_class_name>
         <sys_created_by>system</sys_created_by>
         <sys_created_on>2018-01-25 02:51:04</sys_created_on>

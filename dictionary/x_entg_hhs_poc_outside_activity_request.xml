@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <database>
-    <element extends="task" label="Outside Activity Request" max_length="40" name="x_entg_hhs_poc_outside_activity_request" sizeclass="17" type="collection">
+    <element extends="task" label="Outside Activity Request" max_length="40" name="x_entg_hhs_poc_outside_activity_request" type="collection">
         <element choice="1" label="Outside Activity Type" max_length="40" name="activity_type" type="choice">
             <choice>
                 <element label="Professional or Consultative Activities" sequence="0" value="activities"/>

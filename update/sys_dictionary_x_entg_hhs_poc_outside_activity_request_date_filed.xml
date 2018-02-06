@@ -55,7 +55,7 @@
         <sys_created_by>john.suits</sys_created_by>
         <sys_created_on>2018-01-22 19:55:30</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
-        <sys_id>f422e8424ff38300f78e74828110c7d9</sys_id>
+        <sys_id>55582f5a4f001300420f30318110c74e</sys_id>
         <sys_mod_count>0</sys_mod_count>
         <sys_name>Date filed</sys_name>
         <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
@@ -63,8 +63,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
         <sys_update_name>sys_dictionary_x_entg_hhs_poc_outside_activity_request_date_filed</sys_update_name>
-        <sys_updated_by>john.suits</sys_updated_by>
-        <sys_updated_on>2018-01-22 19:55:30</sys_updated_on>
+        <sys_updated_by>system</sys_updated_by>
+        <sys_updated_on>2018-02-05 15:07:10</sys_updated_on>
         <table_reference>false</table_reference>
         <text_index>false</text_index>
         <unique>false</unique>

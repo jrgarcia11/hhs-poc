@@ -31,4 +31,5 @@
         <sys_updated_on>2018-01-25 03:56:10</sys_updated_on>
         <version>k</version>
     </sys_embedded_help_content>
+    <sys_translated_text action="delete_multiple" query="documentkey=0c75ac764f37c300ec6c3cb28110c700"/>
 </record_update>

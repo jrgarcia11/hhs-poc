@@ -1,0 +1,290 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_ui_section caption="Supervisor Review" section_id="51fed0aa4f801300420f30318110c784" sys_domain="global" table="x_entg_hhs_poc_outside_activity_request_520" version="3" view="">
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>16257c764f001300420f30318110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Summary of Applicable Law</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>1a257c764f001300420f30318110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>An employee cannot undertake an outside activity that conflicts with the employee's official duties. An activity conflicts with official duties: (a) if it is
+prohibited by statute or regulation; or (b) if, under the standards in 5 CFR 2635.402 and 2635.502, it would require the employee's recusal from matters so
+central or critical to the performance of his or her official duties that the employee's ability to perform the duties of his or her position would be materially
+impaired. Such a recusal would likely arise where the outside activity involves a person or entity that is regulated by, does business with, receives grants or
+other benefits from, or is otherwise substantially impacted by the programs, policies, and operations of the employee's agency, and the employee normally
+would be involved personally and substantially in such matters on a frequent basis or as a principal duty. In addition, an activity may be improper if the
+circumstances suggest that the employee received an outside business opportunity based on his or her official position or would create the appearance of using public office for the private gain of an outside entity. An employee also must endeavor to avoid any actions that create the appearance of a violation of
+law or the ethical standards. Special rules apply to activities involving fundraising, expert witness testimony, teaching, speaking, writing, or editing, and
+activities with foreign entities. Certain categories of employees, such as those in FDA, NIH, and OGC, are subject to component specific rules on outside
+activities. Refer to the Standards of Ethical Conduct, 5 CFR part 2635, subpart H, and the HHS Supplemental Ethics Regulation, 5 CFR part 5501.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>1e257c764f001300420f30318110c7b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Supervisor's Statement</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>12257c764f001300420f30318110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Describe the extent to which the employee's official duties are related to the proposed outside activity.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>16257c764f001300420f30318110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>Recommendation</text>
+            <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>1a257c764f001300420f30318110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>The undersigned supervisor, identified in Part I, Item 10, has reviewed the employee's responses, obtained additional information where appropriate,
+and recommends the following action:</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>1e257c764f001300420f30318110c7b3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>If the above box is checked, the supervisor understands that if the outside activity is approved, the employee may be disqualified from performing official
+duties that involve or affect any outside entity with which the employee has an outside employment, consulting, or similar relationship. If the
+activity constitutes employment or service as an officer, director, or trustee, or in another fiduciary role, the recusal obligation may extend not only
+to government matters that specifically involve or affect the outside entity, but to those matters that affect generally the industry or economic
+sector in which the outside entity operates. The supervisor concludes that any work assignments involving specific or general matters from which
+the employee will be recused can be reassigned to another individual and are not so central or critical to the performance of the employee's
+official duties that the employee's ability to perform the duties of his her position would be materially impaired.</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_annotation action="INSERT_OR_UPDATE">
+            <is_plain_text>false</is_plain_text>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>12257c764f001300420f30318110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <text>If the above box is NOT checked, explain the reason(s) below</text>
+            <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
+        </sys_ui_annotation>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>16257c764f001300420f30318110c7b2</element>
+            <position>0</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>d2257c764f001300420f30318110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1a257c764f001300420f30318110c7b2</element>
+            <position>1</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>56257c764f001300420f30318110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1e257c764f001300420f30318110c7b2</element>
+            <position>2</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>d6257c764f001300420f30318110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12257c764f001300420f30318110c7b3</element>
+            <position>3</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>5a257c764f001300420f30318110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>supervisor_statement</element>
+            <position>4</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>da257c764f001300420f30318110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>16257c764f001300420f30318110c7b3</element>
+            <position>5</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>5e257c764f001300420f30318110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1a257c764f001300420f30318110c7b3</element>
+            <position>6</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>de257c764f001300420f30318110c7b4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>approval_recommendation</element>
+            <position>7</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>52257c764f001300420f30318110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>1e257c764f001300420f30318110c7b3</element>
+            <position>8</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>d2257c764f001300420f30318110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>12257c764f001300420f30318110c7b4</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>56257c764f001300420f30318110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type>annotation</type>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>disapproval_explanation</element>
+            <position>10</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 15:20:33</sys_created_on>
+            <sys_id>d6257c764f001300420f30318110c7b5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="Supervisor Review" display_value="Supervisor Review" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fed0aa4f801300420f30318110c784</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 15:20:33</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_section action="INSERT_OR_UPDATE">
+            <caption>Supervisor Review</caption>
+            <header>false</header>
+            <name>x_entg_hhs_poc_outside_activity_request_520</name>
+            <roles/>
+            <sys_class_name>sys_ui_section</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-05 19:05:03</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>51fed0aa4f801300420f30318110c784</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Supervisor Review</sys_name>
+            <sys_overrides/>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_ui_section_51fed0aa4f801300420f30318110c784</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-05 19:05:03</sys_updated_on>
+            <sys_user/>
+            <title>false</title>
+            <view display_value="Default view" name="NULL">Default view</view>
+            <view_name/>
+        </sys_ui_section>
+    </sys_ui_section>
+</record_update>
