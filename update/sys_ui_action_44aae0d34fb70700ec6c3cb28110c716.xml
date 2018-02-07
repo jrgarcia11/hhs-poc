@@ -24,16 +24,16 @@
         <onclick>showSigPad()</onclick>
         <order>100</order>
         <script><![CDATA[function showSigPad(){
-   //g_form.save();
-var gDialog = new GlideDialogWindow('accept_signature3');
-   gDialog.setTitle('Certify & Sign');
-   gDialog.setWidth(600);
-   //gDialog.setPreference('sysparm_document_id', g_form.getUniqueValue());
-   gDialog.setPreference('sysparm_table_name', 'x_entg_hhs_poc_outside_activity_annual_report');
-   gDialog.setPreference('sysparm_draw_only', 'false');
+	//g_form.save();
+	var gDialog = new GlideDialogWindow('accept_signature3');
+	gDialog.setTitle('Certify & Sign');
+	gDialog.setWidth(600);
+	//gDialog.setPreference('sysparm_document_id', g_form.getUniqueValue());
+	gDialog.setPreference('sysparm_table_name', 'x_entg_hhs_poc_outside_activity_annual_report');
+	gDialog.setPreference('sysparm_draw_only', 'false');
 	gDialog.setPreference('sysparm_redirect_url', '');
-   gDialog.render();
-   //gsftSubmit(null, g_form.getFormElement(), "certify_sign");
+	gDialog.render();
+	//gsftSubmit(null, g_form.getFormElement(), "certify_sign");
 }
 
 if(typeof window == 'undefined')
@@ -52,7 +52,7 @@ function serverSide(){
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>44aae0d34fb70700ec6c3cb28110c716</sys_id>
-        <sys_mod_count>6</sys_mod_count>
+        <sys_mod_count>8</sys_mod_count>
         <sys_name>Sign Annual Report</sys_name>
         <sys_overrides/>
         <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
@@ -60,8 +60,8 @@ function serverSide(){
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
         <sys_update_name>sys_ui_action_44aae0d34fb70700ec6c3cb28110c716</sys_update_name>
-        <sys_updated_by>jade.garcia</sys_updated_by>
-        <sys_updated_on>2018-01-29 17:24:47</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-06 15:31:21</sys_updated_on>
         <table>x_entg_hhs_poc_outside_activity_annual_report</table>
         <ui11_compatible>true</ui11_compatible>
         <ui16_compatible>false</ui16_compatible>

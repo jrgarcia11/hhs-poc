@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sys_ui_policy_action">
+    <sys_ui_policy_action action="INSERT_OR_UPDATE">
+        <disabled>ignore</disabled>
+        <field>b_explain</field>
+        <mandatory>ignore</mandatory>
+        <sys_class_name>sys_ui_policy_action</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2018-02-07 15:34:27</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>7de1cac74f001300420f30318110c76b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>b_explain</sys_name>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sys_ui_policy_action_7de1cac74f001300420f30318110c76b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-07 15:34:27</sys_updated_on>
+        <table>x_entg_hhs_poc_outside_activity_report_521</table>
+        <ui_policy display_value="Show 521 Explanation B">9ac18ac74f001300420f30318110c706</ui_policy>
+        <visible>true</visible>
+    </sys_ui_policy_action>
+</record_update>

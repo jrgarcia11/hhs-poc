@@ -4,7 +4,6 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_entg_hhs_poc.SHA1Hashing</api_name>
-        <caller_access/>
         <client_callable>false</client_callable>
         <description/>
         <name>SHA1Hashing</name>

@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="official_fax" label="Official Fax" language="en" table="x_entg_hhs_poc_outside_activity_report_521">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>official_fax</element>
+            <help/>
+            <hint/>
+            <label>Official Fax</label>
+            <language>en</language>
+            <name>x_entg_hhs_poc_outside_activity_report_521</name>
+            <plural>Official Faxes</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-02-06 20:39:10</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>e51e713e4f801300420f30318110c7cc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Official Fax</sys_name>
+            <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+            <sys_update_name>sys_documentation_x_entg_hhs_poc_outside_activity_report_521_official_fax_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-02-06 20:39:10</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

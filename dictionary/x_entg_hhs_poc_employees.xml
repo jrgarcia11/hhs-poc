@@ -17,7 +17,6 @@
         </element>
         <element label="Cell" max_length="40" name="cell" type="string"/>
         <element label="City" max_length="40" name="city" type="string"/>
-        <element label="Current Annual Report" max_length="32" name="current_annual_report" reference="x_entg_hhs_poc_outside_activity_annual_report" type="reference"/>
         <element label="Email" max_length="40" name="email" type="string"/>
         <element label="Fax" max_length="40" name="fax" type="string"/>
         <element label="Federal Salary" max_length="20" name="federal_salary" type="currency"/>
@@ -49,9 +48,6 @@
         <element label="User ref" max_length="32" name="user_ref" reference="sys_user" type="reference"/>
         <element label="Zip" max_length="40" name="zip" type="string"/>
         <index name="index">
-            <element name="current_annual_report"/>
-        </index>
-        <index name="index2">
             <element name="user_ref"/>
         </index>
     </element>

@@ -4,7 +4,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>name</element>
-            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="9b1b4f364fbbc300ec6c3cb28110c7e6">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="29e4afd24f001300420f30318110c7f4">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>0</position>
@@ -19,7 +19,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>type</element>
-            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="9b1b4f364fbbc300ec6c3cb28110c7e6">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="29e4afd24f001300420f30318110c7f4">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>1</position>
@@ -34,7 +34,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>visualization</element>
-            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="9b1b4f364fbbc300ec6c3cb28110c7e6">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="29e4afd24f001300420f30318110c7f4">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>2</position>
@@ -49,7 +49,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>indicator</element>
-            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="9b1b4f364fbbc300ec6c3cb28110c7e6">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="29e4afd24f001300420f30318110c7f4">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>3</position>
@@ -64,7 +64,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>tag</element>
-            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="9b1b4f364fbbc300ec6c3cb28110c7e6">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="29e4afd24f001300420f30318110c7f4">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>4</position>
@@ -79,7 +79,7 @@
         <sys_ui_list_element action="INSERT_OR_UPDATE">
             <average_value>false</average_value>
             <element>related_dashboards</element>
-            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="9b1b4f364fbbc300ec6c3cb28110c7e6">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
+            <list_id display_value="pa_widgets" element="NULL" name="pa_widgets" parent="NULL" relationship="NULL" sys_domain="global" view="29e4afd24f001300420f30318110c7f4">971b4f364fbbc300ec6c3cb28110c7e7</list_id>
             <max_value>false</max_value>
             <min_value>false</min_value>
             <position>5</position>
@@ -118,7 +118,7 @@
             <sys_updated_by>kennedy.nguyen</sys_updated_by>
             <sys_updated_on>2018-01-25 16:00:01</sys_updated_on>
             <sys_user/>
-            <view display_value="Rpt8bac43f1c7000300b0ea8b3c5c97632f" name="RPT8bac43f1c7000300b0ea8b3c5c97632f">9b1b4f364fbbc300ec6c3cb28110c7e6</view>
+            <view display_value="Rpt8bac43f1c7000300b0ea8b3c5c97632f" name="RPT8bac43f1c7000300b0ea8b3c5c97632f">29e4afd24f001300420f30318110c7f4</view>
             <view_name/>
         </sys_ui_list>
     </sys_ui_list>
