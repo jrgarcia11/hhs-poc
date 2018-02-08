@@ -17,7 +17,7 @@
         <name/>
         <order>360</order>
         <override_menu_roles>false</override_menu_roles>
-        <query>https://itgfirmdemo1.service-now.com/oig?id=form_521&amp;sys_id=-1&amp;table=x_entg_hhs_poc_outside_activity_annual_report</query>
+        <query>https://itgfirmdemo1.service-now.com/oig?id=form_521&amp;sys_id=-1&amp;table=x_entg_hhs_poc_outside_activity_report_521</query>
         <report/>
         <roles>x_entg_hhs_poc.user</roles>
         <survey/>
@@ -29,7 +29,7 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>5b2facdc4f449700ec6c3cb28110c73a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
+        <sys_mod_count>1</sys_mod_count>
         <sys_name>HHS 521 (Service Portal)</sys_name>
         <sys_overrides/>
         <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
@@ -37,8 +37,8 @@
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
         <sys_update_name>sys_app_module_5b2facdc4f449700ec6c3cb28110c73a</sys_update_name>
-        <sys_updated_by>jade.garcia</sys_updated_by>
-        <sys_updated_on>2018-01-29 20:30:37</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-08 16:39:00</sys_updated_on>
         <timeline_page/>
         <title>HHS 521 (Service Portal)</title>
         <uncancelable>false</uncancelable>

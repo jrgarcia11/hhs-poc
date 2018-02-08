@@ -3,7 +3,7 @@
     <pa_tabs action="INSERT_OR_UPDATE">
         <canvas_page/>
         <name>New Tab 1</name>
-        <page display_value="PA New Tab 1">ebafa23e4f3bc300ec6c3cb28110c71c</page>
+        <page/>
         <sys_class_name>pa_tabs</sys_class_name>
         <sys_created_by>kennedy.nguyen</sys_created_by>
         <sys_created_on>2018-01-25 14:00:09</sys_created_on>

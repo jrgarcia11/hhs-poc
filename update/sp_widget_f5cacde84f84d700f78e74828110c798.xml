@@ -1,0 +1,1356 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[function() {  /* widget controller */  var c = this;}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.pdf-wrapper {
+	width: 815px;
+  padding: 20px;
+  background: #fff;
+  margin: auto;
+}
+
+
+._rel {
+	position: relative;
+}
+
+.hhs-logo {
+	position: absolute;
+  left: 10px;
+}
+.x-boxes {
+	position: absolute;
+    font-family: Helvetica;
+    top: 0px;
+    left: 2px;
+  font-weight: 900;
+}
+
+.x-2 .x-boxes{
+top: -4px;
+}
+
+.hide {
+display: none;
+}
+* {
+    margin:0;
+     padding:0;
+     text-indent:0;
+}
+ h3 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 9pt;
+}
+ .s1 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 12pt;
+}
+ .s2 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 9pt;
+}
+ .s3 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: italic;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ .s4 {
+     color: black;
+     font-family:"Times New Roman", serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 10pt;
+     vertical-align: 1pt;
+}
+ .s5 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 10pt;
+}
+ .s6 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ .s7 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ .p, p {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+     margin:0pt;
+}
+ .s8 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: italic;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ .s9 {
+     color: black;
+     font-family:"Times New Roman", serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 10pt;
+}
+ .s10 {
+     color: black;
+     font-family:"Times New Roman", serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ .h4, h4 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ .s12 {
+     color: black;
+     font-family:"Times New Roman", serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 10pt;
+}
+ .s13 {
+     color: black;
+     font-family:"Times New Roman", serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ .s14 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 7pt;
+}
+ .s15 {
+     color: black;
+     font-family:"Times New Roman", serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+     vertical-align: 1pt;
+}
+ .s16 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+     vertical-align: 1pt;
+}
+ .s17 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 12pt;
+}
+ .s18 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: underline;
+     font-size: 12pt;
+}
+ .s19 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 7pt;
+}
+ .s21 {
+     color: black;
+     font-family:"Times New Roman", serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 10pt;
+     vertical-align: 1pt;
+}
+ .s22 {
+     color: black;
+     font-family:"Times New Roman", serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+     vertical-align: 2pt;
+}
+ .s24 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 10pt;
+}
+ h2 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 10pt;
+}
+ .s26 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 9pt;
+}
+ .s27 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 9pt;
+}
+ .s28 {
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ li {
+    display: block;
+}
+ #l1 {
+    padding-left: 0pt;
+    counter-reset: c1 8;
+}
+ #l1&gt; li:before {
+    counter-increment: c1;
+     content: counter(c1, decimal)". ";
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ #l1&gt; li:first-child:before {
+    counter-increment: c1 0;
+}
+ li {
+    display: block;
+}
+ #l2 {
+    padding-left: 0pt;
+    counter-reset: d1 1;
+}
+ #l2&gt; li:before {
+    counter-increment: d1;
+     content: counter(d1, decimal)". ";
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ #l2&gt; li:first-child:before {
+    counter-increment: d1 0;
+}
+ #l3 {
+    padding-left: 0pt;
+    counter-reset: d2 1;
+}
+ #l3&gt; li:before {
+    counter-increment: d2;
+     content: counter(d2, lower-latin)". ";
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ #l3&gt; li:first-child:before {
+    counter-increment: d2 0;
+}
+ li {
+    display: block;
+}
+ #l4 {
+    padding-left: 0pt;
+    counter-reset: e1 1;
+}
+ #l4&gt; li:before {
+    counter-increment: e1;
+     content: counter(e1, decimal)". ";
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ #l4&gt; li:first-child:before {
+    counter-increment: e1 0;
+}
+ li {
+    display: block;
+}
+ #l5 {
+    padding-left: 0pt;
+    counter-reset: f1 1;
+}
+ #l5&gt; li:before {
+    counter-increment: f1;
+     content: counter(f1, decimal)". ";
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ #l5&gt; li:first-child:before {
+    counter-increment: f1 0;
+}
+ li {
+    display: block;
+}
+ #l6 {
+    padding-left: 0pt;
+    counter-reset: g1 3;
+}
+ #l6&gt; li:before {
+    counter-increment: g1;
+     content: counter(g1, decimal)". ";
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ #l6&gt; li:first-child:before {
+    counter-increment: g1 0;
+}
+ li {
+    display: block;
+}
+ #l7 {
+    padding-left: 0pt;
+    counter-reset: h1 4;
+}
+ #l7&gt; li:before {
+    counter-increment: h1;
+     content: counter(h1, decimal)". ";
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ #l7&gt; li:first-child:before {
+    counter-increment: h1 0;
+}
+ li {
+    display: block;
+}
+ #l8 {
+    padding-left: 0pt;
+    counter-reset: i1 4;
+}
+ #l8&gt; li:before {
+    counter-increment: i1;
+     content: counter(i1, decimal)". ";
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: bold;
+     text-decoration: none;
+     font-size: 8pt;
+}
+ #l8&gt; li:first-child:before {
+    counter-increment: i1 0;
+}
+ li {
+    display: block;
+}
+ #l9 {
+    padding-left: 0pt;
+    counter-reset: j1 1;
+}
+ #l9&gt; li:before {
+    counter-increment: j1;
+     content: "("counter(j1, lower-latin)") ";
+     color: black;
+     font-family:Arial, sans-serif;
+     font-style: normal;
+     font-weight: normal;
+     text-decoration: none;
+     font-size: 9pt;
+}
+ #l9&gt; li:first-child:before {
+    counter-increment: j1 0;
+}
+</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>oig_pdf_520</id>
+        <internal>false</internal>
+        <link/>
+        <name>OIG PDF 520</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+data.sys_id = $sp.getParameter('sys_id');
+	
+	var grForm = new GlideRecord('x_entg_hhs_poc_outside_activity_request_520');
+	grForm.get(data.sys_id);
+	data.form = {};
+	
+	
+	var arrayFields = 'activity_type,activity_type_desc,actvity_duty_relation,advance,annual_report,approved,approved_w_comments,compensated,comp_amount,consultaiton_desc,consultation,date_filed,days_per_week,denied,disclaimer_text,disposition,employee,employer_duty_effect,end_date,entity_cell,entity_city,entity_email,entity_fax,entity_state,entity_street,entity_telephone,entity_zip,estimated_amount,ethics_official_cell,ethics_official_email,ethics_official_fax,ethics_official_name,ethics_official_tele,ethics_official_title,ethics_organization,explanation,fee,filing_status,final_sig,first_approval,hhs_funded,hhs_funded_desc,honorarium,hours_per_day,initial_sig,initial_submission,non_travel,non_travel_desc,official_duty_desc,official_duty_desc_attached,other_comp,other_comp_desc,outside_contact,outside_employer_assignments,outside_entity_name,outside_title,payor,recommend_approval,recommend_disapproval,rec_disapproval,retainer,royalty,salary,second_approval,self_employed_desc,self_employed_ind,start_date,status,stock,stock_options,subject_matter,supervisor_statement,sys_id,travel,travel_desc,travel_detail,usual_working_hours,usual_working_hours_desc,weeks_per_year';
+	
+	var referenceFields = ',employee.agency,employee.appointment_type,employee.appointment_type,employee.street,employee.city,employee.zip,employee.state,employee.position_title';
+	$sp.getRecordDisplayValues(data.form, grForm, arrayFields + referenceFields)
+
+	data.test = grForm.employee.getDisplayValue();
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>daniyom.haile</sys_created_by>
+        <sys_created_on>2018-01-30 17:08:41</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_id>f5cacde84f84d700f78e74828110c798</sys_id>
+        <sys_mod_count>66</sys_mod_count>
+        <sys_name>OIG PDF 520</sys_name>
+        <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
+        <sys_update_name>sp_widget_f5cacde84f84d700f78e74828110c798</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-08 16:48:49</sys_updated_on>
+        <template><![CDATA[
+<body>
+  <div class="pdf-wrapper">
+
+    <header class="_rel">
+      <img width="78" height="80" alt="H H S Logo" title="H H S Logo" src="oig_hhs-logo.svg" class="hhs-logo"/>
+      <h3 style="padding-top: 3pt;text-align: center;">DEPARTMENT OF HEALTH AND HUMAN SERVICES</h3>
+      <p class="s1" style="padding-top: 7pt;text-align: center;">REQUEST FOR APPROVAL OF OUTSIDE ACTIVITY</p>
+      <p class="s2" style="padding-top: 3pt;line-height: 115%;text-align: center;">Standards of Ethical Conduct Regulation</p>
+      <p class="s2" style="padding-top: 3pt;line-height: 115%;text-align: center;"> HHS Supplemental Ethics Regulation</p>
+      <p class="s3" style="padding-top: 1pt;padding-bottom: 2pt;text-align: center;">(5 CFR 2635.803, 5 CFR 5501.106(d))</p>
+    </header>
+    <p style="padding-left: 6pt;text-indent: 0pt;line-height: 2pt;text-align: left;"><span><img width="728" height="2" alt="image" src="oig_Image_002.png"/></span></p>
+    <table style="border-collapse:collapse;margin-left:6.662pt" cellspacing="0">
+      <tr style="height:28pt">
+        <td style="width:399pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#C0C0C0;border-right-style:solid;border-right-width:1pt">
+          <p class="s4" style="padding-top: 7pt;padding-left: 16pt;text-indent: 0pt;text-align: left; position: relative">
+
+            <span class="_rel">  <span ng-show="data.form.filing_status == 'Initial Request'" class="x-boxes">X</span><img width="14" height="14" alt="image" src="oig_Image_003.png"/></span> 
+            <span class="s5">Initial Request                   </span>
+            <span class="_rel"> <span  ng-show="data.form.filing_status == 'Revised Request'" style="position: absolute">X</span><img width="14" height="14" alt="image" src="oig_Image_004.png"/></span> 
+            <span class="s5">Revised Request             </span>
+            <span class="_rel"> <span  ng-show="data.form.filing_status == 'Renewal'" style="position: absolute">X</span><img width="14" height="14" alt="image" src="oig_Image_005.png"/></span>
+            <span class="s5">Renewal</span></p>
+        </td>
+        <td style="width:153pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#C0C0C0">
+          <p class="s6" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">DATE FILED</p>
+          <p>
+           <strong> {{data.form.date_filed}}   </strong> 
+          </p>
+        </td>
+      </tr>
+      <tr style="height:13pt">
+        <td style="width:552pt;border-top-style:solid;border-top-width:1pt;border-top-color:#C0C0C0;border-left-style:solid;border-left-width:1pt;border-left-color:#C0C0C0;border-bottom-style:solid;border-bottom-width:1pt;border-bottom-color:#C0C0C0;border-right-style:solid;border-right-width:1pt;border-right-color:#C0C0C0" colspan="2" bgcolor="#D5D5D5">
+          <p class="s7" style="padding-top: 1pt;padding-left: 4pt;text-indent: 0pt;text-align: left;">I. EMPLOYEE INFORMATION</p>
+        </td>
+      </tr>
+    </table>
+    <p style="padding-top: 2pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">1. EMPLOYEE&#39;S NAME <i>(Last, First, MI)</i></p>
+    <p style="text-indent: 14pt;text-align: left;"> <strong> {{data.form.employee}}</strong></p>
+    <table style="border-collapse:collapse;margin-left:6.457pt" cellspacing="0">
+      <tr style="height:36pt">
+        <td style="width:276pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s6" style="text-indent: 0pt;text-align: left;">2. AGENCY <i>(Operating/Staff Divison)</i></p>
+          <p> <strong>  {{data.form['employee.agency']}}  </strong>  </p>
+        </td>
+        <td style="width:276pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt" colspan="2">
+          <p class="s8" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">(Subcomponent)</p>
+        </td>
+      </tr>
+      <tr style="height:36pt">
+        <td style="width:276pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s6" style="text-indent: 0pt;text-align: left;">3. TITLE OF POSITION</p>
+          <p><strong> {{data.form['employee.position_title']}} </strong>  </p>
+        </td>
+        <td style="width:138pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s6" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">4. GRADE/STEP</p>
+        </td>
+        <td style="width:138pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p class="s6" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">5. FEDERAL SALARY</p>
+        </td>
+      </tr>
+      <tr style="height:48pt">
+        <td style="width:372pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt" colspan="2" class="x-2">
+          <p class="s6" style="text-indent: 0pt;text-align: left;">6. APPOINTMENT TYPE</p>
+          <p class="s6 x-2" style="padding-top: 1pt;padding-left: 5pt;padding-right: 3pt;text-indent: 0pt;line-height: 18pt;text-align: left;">
+            <span class="_rel"> <span ng-show="data.form['employee.appointment_type'] == 'PAS/PA'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_006.png"/></span><span class="s9"> </span>PAS/PA
+            <span class="_rel"> <span ng-show="data.form['employee.appointment_type'] == 'Non-Career SES'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_007.png"/></span><span class="s10"> </span>Non-Career SES     
+            <span class="_rel"> <span ng-show="data.form['employee.appointment_type'] == 'Career SES'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_008.png"/></span><span class="s10"> </span>Career SES    
+            <span class="_rel">  <span ng-show="data.form['employee.appointment_type'] == 'Schedule C'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_009.png"/></span><span class="s10"> </span>Schedule C   
+            <span class="_rel"> <span ng-show="data.form['employee.appointment_type'] == 'Commissioned Corps'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_010.png"/></span><span class="s10"> </span>Commissioned Corps
+            <span class="_rel">  <span ng-show="data.form['employee.appointment_type'] == 'GS'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_011.png"/></span><span class="s10"> </span>GS         
+            <span class="_rel"> <span ng-show="data.form['employee.appointment_type'] == 'Title 42'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_012.png"/></span><span class="s10"> </span>Title 42                
+            <span class="_rel"> <span ng-show="data.form['employee.appointment_type'] == 'Other'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_013.png"/></span><span class="s10"> </span>Other <u>                                                                                       </u></p>
+        </td>
+        <td style="width:180pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p class="s6" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">7. FINANCIAL DISCLOSURE FILING STATUS</p>
+          <p class="s4" style="padding-top: 6pt;padding-left: 11pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_014.png"/></span> <span class="s6">Public </span><span class="s8">(OGE 278)</span></p>
+          <p class="s6" style="padding-top: 4pt;padding-left: 11pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_015.png"/></span><span class="s9"> </span>Confidential <i>(OGE 450)       </i><span><img width="13" height="13" alt="image" src="oig_Image_016.png"/></span><span class="s10">  </span>None</p>
+        </td>
+      </tr>
+    </table>
+    <p style="text-indent: 0pt;text-align: left;margin-bottom: -8px;"><span><img width="720" height="1" alt="image" src="oig_Image_017.png"/></span></p>
+    
+    
+    
+    <ol id="l1">
+      <li style="padding-top: 2pt;padding-left: 8pt;text-indent: -12pt;line-height: 152%;text-align: left;"> 
+        <p style="display: inline;margin-top: -5px;">OFFICE ADDRESS</p>
+        <p style="text-indent: 0pt;text-align: left;margin-top: -8px;margin-left: -12px;"><span><img width="720" height="1" alt="image" src="oig_Image_018.png"/></span></p>
+     <p style="padding-top: 2pt;padding-left: 6pt;text-indent: 0pt;text-align: left;margin-top: -8px;">STREET</p>
+    <p style="text-indent: 14pt;text-align: left;"> <strong> {{data.form['employee.street']}}</strong></p>
+    
+      <table style="border-collapse:collapse;margin-left:6.457pt" cellspacing="0">
+ 
+      <tr style="height:36pt">
+        <td style="width:276pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s6" style="text-indent: 0pt;text-align: left;">CITY</p>
+          <p><strong> {{data.form['employee.city']}}</strong> </p>
+        </td>
+        <td style="width:138pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s6" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">STATE</p>
+          <p><strong>{{data.form['employee.state']}}</strong>  </p>
+        </td>
+        <td style="width:138pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p class="s6" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">ZIP</p>
+          <p><strong> {{data.form['employee.zip']}} </strong> </p>
+        </td>
+      </tr>
+
+    </table>
+    
+       </li>
+    </ol>
+    
+    
+    
+    
+    <ol id="l1">
+      <li class="hide"></li>
+     <!-- <li style="padding-top: 2pt;padding-left: 18pt;text-indent: -12pt;line-height: 152%;text-align: left;">
+        <p style="display: inline;">OFFICE ADDRESS</p>
+        <p style="text-indent: 0pt;text-align: left;"><span><img width="720" height="1" alt="image" src="oig_Image_018.png"/></span></p>
+         <p style="display: inline;"> STREET</p>
+        <p style="text-indent: 0pt;text-align: left;">7231 Test</p>
+        <p style="padding-top: 7pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">CITY</p>
+        <p style="text-indent: 0pt;text-align: left;">Bethesda</p>
+        <p style="padding-left: 2pt;text-indent: 0pt;text-align: left;">STATE</p>
+        <p style="text-indent: 0pt;text-align: left;"/>
+        <p style="padding-top: 6pt;padding-left: 40pt;text-indent: 0pt;text-align: left;">ZIP</p>
+        <p style="text-indent: 0pt;text-align: left;">20879</p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="744" height="1" alt="image" src="oig_Image_019.png"/></span></p>
+      </li> -->
+      <li style="padding-top: 2pt;padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <p style="display: inline;">OFFICE CONTACT INFORMATION</p>
+        <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="145" alt="image" src="oig_Image_020.png"/></span></p>
+      <!--  <p style="padding-top: 4pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">TELEPHONE FAX</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-top: 6pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">CELL EMAIL</p> -->
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+      </li>
+      <li style="padding-top: 6pt;padding-left: 21pt;text-indent: -15pt;text-align: left;">
+        <p style="display: inline;">NAME OF IMMEDIATE SUPERVISOR 11. TITLE OF SUPERVISOR</p>
+      </li>
+    </ol>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">12. SUPERVISOR CONTACT INFORMATION</p>
+    <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="101" alt="image" src="oig_Image_021.png"/></span></p>
+    <!--<p style="padding-top: 4pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">TELEPHONE FAX</p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p style="padding-top: 6pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">CELL EMAIL</p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">AGENCY USE ONLY</p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p> -->
+    <p style="padding-left: 6pt;text-indent: 0pt;line-height: 4pt;text-align: left;"><span><img width="728" height="5" alt="image" src="oig_Image_022.png"/></span></p>
+    
+    
+    <ol id="l2">
+      <li style="padding-top: 7pt;padding-left: 19pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Nature of Outside Activity</h4>
+        <p style="padding-top: 2pt;padding-left: 20pt;text-indent: 0pt;text-align: left;">Indicate the type of activity for which you request prior approval, and describe fully the specific duties or services to be performed.</p>
+        <p style="padding-top: 4pt;padding-left: 29pt;text-indent: 0pt;line-height: 146%;text-align: left;">
+          <span class="_rel"> <span ng-show="data.form.activity_type == 'Professional or Consultative Activities'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_023.png"/></span>
+          <span class="s12"> </span>Professional or Consultative Activities       
+           <span class="_rel"> <span ng-show="data.form.activity_type == 'Teaching, Speaking, Writing or Editing'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_024.png"/></span>
+          <span class="s13">  </span>Teaching, Speaking, Writing or Editing    
+           <span class="_rel"> <span ng-show="data.form.activity_type == 'Board Service'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_025.png"/></span>
+          <span class="s13">  </span>Board Service        
+           <span class="_rel"> <span ng-show="data.form.activity_type == 'Expert Witness'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_026.png"/></span>
+          <span class="s13">  </span>Expert Witness 
+          <span class="_rel"> <span ng-show="data.form.activity_type== 'Other'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_027.png"/></span>
+          <span class="s13"> </span>Other</p>
+        <p style="padding-top: 1pt;padding-left: 41pt;text-indent: 0pt;text-align: left;">Describe:</p>
+     
+        <table style="width: 88%; border: 1px solid #777;margin-left:50px;">
+          <tr><td style="padding: 0 5px 20px 5px; ">{{data.form.activity_type_desc}}</td></tr>
+        </table>
+        <p style="padding-top: 7pt;padding-left: 29pt;text-indent: 0pt;text-align: justify;">If you will provide personal services or products directly to multiple clients, patients, customers, or others, as a self-employed individual or as an independent contractor, alone or jointly with others, check the box below and specify the type of activity or business in which you propose to be engaged, such as legal, medical, accounting, or sales (specify industry or economic sector) and identify any partners or others with whom you provide services or products jointly. Estimate the total number of clients, patients, customers, or persons to whom you would provide services or products during the activity period, rather than listing them in Part II, Item 2.</p>
+        <p class="s12" style="padding-top: 8pt;padding-left: 29pt;text-indent: 0pt;text-align: justify;">
+         <span class="_rel"> <span ng-show="data.form.self_employed_ind == 'true'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_028.png"/></span> <span class="p">Self-Employed Activity</span></p>
+        
+         <table style="width: 88%; border: 1px solid #777;margin-left:50px;">
+          <tr><td style="padding: 0 5px 20px 5px; ">{{data.form.self_employed_desc}}</td></tr>
+        </table>
+        <p style="padding-top: 4pt;padding-left: 29pt;text-indent: 0pt;text-align: justify;">For activities involving teaching, speaking, or writing, provide a syllabus, outline, summary, synopsis, draft, or similar description of the content and subject matter involved in the course, speech, or written product (including, if available, a copy of the text of any speech) and the proposed text of any disclaimer that indicates that the views expressed do not necessarily represent the views of the agency or the United States. Check the applicable boxes indicating that these materials are attached. If you are unable to provide this information, or will be delayed in submitting the attachments, please explain below.</p>
+        <p style="padding-top: 7pt;padding-left: 41pt;text-indent: -11pt;line-height: 136%;text-align: left;">
+          <span class="_rel"> <span ng-show="data.form.subject_matter == 'true'" class="x-boxes">X</span><img width="13" height="13" alt="image" src="oig_Image_029.png"/></span>
+          <span class="s12"> </span>Subject Matter of Activity                          <span><img width="13" height="13" alt="image" src="oig_Image_030.png"/></span><span class="s13"> </span>Text of Disclaimer Explain:</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 7pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="740" height="1" alt="image" src="oig_Image_031.png"/></span></p>
+      </li>
+      <li style="padding-left: 19pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Outside Employer or Other Entity</h4>
+        <p style="padding-top: 2pt;padding-left: 19pt;text-indent: 0pt;text-align: left;">Identify the outside employer or other person for whom or organization for which the proposed activity will be performed or conducted. Give the name and title of a contact person. In Items 3 and 4, provide address and contact information for the outside entity.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 19pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="713" height="1" alt="image" src="oig_Image_032.png"/></span></p>
+        <p class="s14" style="padding-left: 19pt;text-indent: 0pt;text-align: left;">OUTSIDE ENTITY NAME</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="49" alt="image" src="oig_Image_033.png"/></span></p>
+        <p class="s14" style="padding-left: 19pt;text-indent: 0pt;text-align: left;">CONTACT PERSON TITLE</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+      </li>
+      <li style="padding-left: 19pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Outside Entity Address</h4>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 19pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="724" height="1" alt="image" src="oig_Image_034.png"/></span></p>
+        <p class="s14" style="padding-left: 19pt;text-indent: 0pt;text-align: left;">STREET</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="49" alt="image" src="oig_Image_035.png"/></span></p>
+        <p class="s14" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">STATE</p>
+        <p style="text-indent: 0pt;text-align: left;"/>
+        <p class="s14" style="padding-top: 4pt;padding-left: 19pt;text-indent: 0pt;text-align: left;">CITY ZIP</p>
+      </li>
+      <li style="padding-top: 5pt;padding-left: 17pt;text-indent: -11pt;text-align: left;">
+        <h4 style="display: inline;">Contact information</h4>
+        <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="96" alt="image" src="oig_Image_036.png"/></span></p>
+        <p style="padding-top: 6pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">TELEPHONE</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">FAX</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-top: 4pt;padding-left: 18pt;text-indent: 0pt;text-align: justify;">CELL EMAIL</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+      </li>
+      <li style="padding-top: 5pt;padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Location</h4>
+        <p style="padding-top: 1pt;padding-left: 19pt;text-indent: 0pt;text-align: justify;">Indicate the location where the activity or services will be performed.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="744" height="1" alt="image" src="oig_Image_037.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Travel</h4>
+        <p style="padding-top: 1pt;padding-left: 19pt;text-indent: 0pt;text-align: justify;">Indicate whether travel is involved, and if so, whether the transportation, lodging, meals, or per diem will be at your own expense or provided by the outside entity in kind or through reimbursement. Describe arrangements and provide estimated costs of items to be furnished or reimbursed by the outside entity.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p class="s12" style="padding-top: 3pt;padding-bottom: 4pt;padding-left: 25pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_038.png"/></span>  <span class="p">Yes</span></p>
+        <p style="padding-left: 43pt;text-indent: 0pt;line-height: 10pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_039.png"/></span></p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 2pt;text-indent: 0pt;text-align: left;">At own Expense              <span><img width="13" height="13" alt="image" src="oig_Image_040.png"/></span><span class="s15"> </span><span class="s13"> </span>In-Kind or Reimbursed <span class="s16">Estimated Amount</span> <span class="s17">$ </span><span class="s18">                                </span></p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p class="s12" style="padding-top: 4pt;padding-left: 24pt;text-indent: 2pt;line-height: 160%;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_041.png"/></span> <span class="p">No Describe:</span></p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="744" height="1" alt="image" src="oig_Image_042.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Time</h4>
+        <p style="padding-top: 2pt;padding-left: 19pt;text-indent: 0pt;text-align: justify;">Provide details with respect to the duration, frequency, and timing of the activity. If your request for prior approval is granted, the approval is effective for a period not to exceed one year from the date of approval. If you wish to continue an activity beyond the one year approval period, you must renew your request no later than thirty days prior to the expiration of the period authorized.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <table style="border-collapse:collapse;margin-left:18.411pt" cellspacing="0">
+          <tr style="height:12pt">
+            <td style="width:264pt;border-top-style:solid;border-top-width:1pt;border-right-style:solid;border-right-width:1pt" colspan="2">
+              <p class="s7" style="text-indent: 0pt;text-align: left;">a. Period Covered</p>
+            </td>
+            <td style="width:276pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt" colspan="3">
+              <p class="s7" style="padding-left: 2pt;text-indent: 0pt;text-align: left;">b. Estimated Total Time Devoted to the Proposed Activity</p>
+            </td>
+          </tr>
+          <tr style="height:30pt">
+            <td style="width:132pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+              <p class="s19" style="padding-top: 3pt;padding-left: 12pt;text-indent: 0pt;text-align: left;">From <i>(mm/dd/yy)</i>:</p>
+            </td>
+            <td style="width:132pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+              <p class="s19" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">To <i>(mm/dd/yy)</i>:</p>
+            </td>
+            <td style="width:92pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+              <p class="s6" style="padding-top: 1pt;padding-left: 20pt;text-indent: 0pt;text-align: left;">Hours per Day</p>
+            </td>
+            <td style="width:92pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+              <p class="s6" style="padding-top: 1pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">Days per Week</p>
+            </td>
+            <td style="width:92pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+              <p class="s6" style="padding-top: 1pt;padding-left: 14pt;text-indent: 0pt;text-align: left;">Weeks per Year</p>
+            </td>
+          </tr>
+        </table>
+        <h4 style="padding-left: 18pt;text-indent: 0pt;text-align: justify;">c. Will work be performed entirely outside of usual working hours?</h4>
+        <p style="padding-top: 4pt;padding-left: 28pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_043.png"/></span><span class="s12"> </span>Yes     <span><img width="13" height="13" alt="image" src="oig_Image_044.png"/></span><span class="s13">  </span>No <i>(If &quot;no,&quot; estimate the number of hours or days that you will be absent from work and indicate the type of leave to be requested.)</i></p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="744" height="1" alt="image" src="oig_Image_045.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Compensation</h4>
+        <p style="padding-top: 2pt;padding-left: 20pt;text-indent: 0pt;text-align: justify;">Indicate whether the activity is compensated, and if so, answer the questions below.</p>
+        <p style="padding-top: 4pt;padding-left: 19pt;text-indent: 0pt;text-align: justify;"><span><img width="13" height="13" alt="image" src="oig_Image_046.png"/></span><span class="s12"> </span>Yes      <span><img width="13" height="13" alt="image" src="oig_Image_047.png"/></span><span class="s13">  </span>No</p>
+        <ol id="l3">
+          <li style="padding-top: 4pt;padding-left: 28pt;text-indent: -9pt;text-align: justify;">
+            <h4 style="display: inline;">Method or Basis of Compensation <i>(Check all boxes that apply)</i></h4>
+            <p style="padding-top: 6pt;padding-left: 27pt;text-indent: 0pt;line-height: 221%;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_048.png"/></span><span class="s21"> </span><span class="s12"> </span>Fee           <span><img width="13" height="13" alt="image" src="oig_Image_049.png"/></span><span class="s13">  </span>Honorarium              <span><img width="13" height="13" alt="image" src="oig_Image_050.png"/></span><span class="s13">  </span>Retainer            <span><img width="13" height="13" alt="image" src="oig_Image_051.png"/></span><span class="s13">  </span>Salary            <span><img width="13" height="13" alt="image" src="oig_Image_052.png"/></span><span class="s13">  </span>Advance            <span><img width="13" height="13" alt="image" src="oig_Image_053.png"/></span><span class="s13">  </span>Royalty             <span><img width="13" height="13" alt="image" src="oig_Image_054.png"/></span><span class="s13">  </span>Stock         <span><img width="13" height="13" alt="image" src="oig_Image_055.png"/></span><span class="s13">  </span>Stock Options <span><img width="13" height="13" alt="image" src="oig_Image_056.png"/></span><span class="s13">  </span>Non-Travel Related Expenses <i>(describe)                                                </i><span><img width="13" height="13" alt="image" src="oig_Image_057.png"/></span><span class="s22"> </span><span class="s13"> </span>Other <i>(specify) </i><u><i>                                                                                         </i></u></p>
+          </li>
+          <li style="padding-top: 5pt;padding-left: 26pt;text-indent: -9pt;text-align: left;">
+            <h4 style="display: inline;">Compensation Amount</h4>
+            <p style="padding-top: 3pt;padding-left: 20pt;text-indent: 0pt;text-align: left;">Indicate the total amount of compensation to be received for the proposed activity for the period covered by this request. Do not include the amount of any travel expenses to be provided by the outside entity that were reported in Part II, Item 6.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br/></p>
+            <p class="s18" style="padding-left: 101pt;text-indent: 0pt;text-align: center;">$                                     </p>
+          </li>
+          <li style="padding-top: 6pt;padding-left: 26pt;text-indent: -9pt;text-align: left;">
+            <h4 style="display: inline;">Payor</h4>
+            <p style="padding-top: 2pt;padding-left: 27pt;text-indent: 0pt;text-align: left;">If any compensation will be received from a payor other than the entity to which personal services will be provided, identify the payor and explain.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          </li>
+          <li style="padding-top: 6pt;padding-left: 26pt;text-indent: -9pt;text-align: left;">
+            <h4 style="display: inline;">Funding Source</h4>
+            <p style="padding-top: 3pt;padding-left: 27pt;text-indent: 0pt;text-align: left;">Indicate whether any compensation is derived from an HHS grant, contract, cooperative agreement, or other source of HHS funding or if the services to be performed are related to an activity funded by HHS, regardless of the specific source of the compensation.</p>
+            <p style="padding-top: 6pt;padding-left: 28pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_058.png"/></span><span class="s12">  </span>Yes <i>(If &quot;yes,&quot; describe)              </i><span><img width="13" height="13" alt="image" src="oig_Image_059.png"/></span><span class="s15"> </span><span class="s13"> </span>No</p>
+            <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          </li>
+          <li style="padding-top: 4pt;padding-left: 26pt;text-indent: -9pt;text-align: left;">
+            <h4 style="display: inline;">Grantee, Contractor, or Other Status</h4>
+            <p style="padding-top: 1pt;padding-left: 27pt;text-indent: 0pt;text-align: left;">For activities involving the provision of consultative or professional services, indicate whether the client, employer, or other person on whose behalf the services are performed is receiving, or intends to seek, an HHS grant, contract, cooperative agreement, or other funding relationship.</p>
+            <p style="text-indent: 0pt;text-align: left;"><br/></p>
+            <p style="padding-left: 29pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_060.png"/></span><span class="s12">  </span>Yes <i>(If &quot;yes,&quot; describe)              </i><span><img width="13" height="13" alt="image" src="oig_Image_061.png"/></span><span class="s15"> </span><span class="s13"> </span>No</p>
+          </li>
+          <li style="padding-top: 6pt;padding-left: 27pt;text-indent: -9pt;text-align: left;">
+            <h4 style="display: inline;">Record of Prior Compensation from Same Source</h4>
+          </li>
+        </ol>
+      </li>
+    </ol>
+    <p style="padding-top: 3pt;padding-left: 28pt;text-indent: 0pt;text-align: justify;">Identify the source, activity, amount and date of any compensation received, or due for services performed, within the last six calendar years and the current year through the date this request is submitted, from the person for whom or the organization with which the current work or activity will be done (including any amount received or due from an agent, affiliate, parent, subsidiary, or predecessor of the proposed payor). This information must be provided as to any outside activity performed for the person or organization that is the subject of this request for approval. Include any prior activity that is the same or similar to the present request, as well as any unrelated activity involving the same source.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <table style="border-collapse:collapse;margin-left:6.155pt" cellspacing="0">
+      <tr style="height:18pt">
+        <td style="width:52pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s7" style="padding-top: 3pt;padding-left: 15pt;text-indent: 0pt;text-align: left;">YEAR</p>
+        </td>
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s7" style="padding-top: 3pt;padding-left: 53pt;padding-right: 52pt;text-indent: 0pt;text-align: center;">SOURCE</p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s7" style="padding-top: 3pt;padding-left: 75pt;padding-right: 74pt;text-indent: 0pt;text-align: center;">ACTIVITY</p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s7" style="padding-top: 3pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">AMOUNT $</p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p class="s7" style="padding-top: 3pt;padding-left: 32pt;padding-right: 32pt;text-indent: 0pt;text-align: center;">DATE</p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:52pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt" rowspan="2">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s7" style="padding-left: 6pt;text-indent: 0pt;text-align: left;">CURRENT</p>
+        </td>
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:52pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt" rowspan="2">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s24" style="padding-top: 9pt;padding-left: 1pt;text-indent: 0pt;text-align: center;">1</p>
+        </td>
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:52pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt" rowspan="2">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s24" style="padding-top: 9pt;padding-left: 1pt;text-indent: 0pt;text-align: center;">2</p>
+        </td>
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:52pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt" rowspan="2">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s24" style="padding-top: 9pt;padding-left: 1pt;text-indent: 0pt;text-align: center;">3</p>
+        </td>
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:52pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt" rowspan="2">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s24" style="padding-top: 9pt;padding-left: 1pt;text-indent: 0pt;text-align: center;">4</p>
+        </td>
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:52pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt" rowspan="2">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s24" style="padding-top: 8pt;padding-left: 1pt;text-indent: 0pt;text-align: center;">5</p>
+        </td>
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:52pt;border-top-style:solid;border-top-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt" rowspan="2">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s24" style="padding-top: 9pt;padding-left: 1pt;text-indent: 0pt;text-align: center;">6</p>
+        </td>
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+      <tr style="height:23pt">
+        <td style="width:143pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:188pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:80pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+        <td style="width:89pt;border-top-style:solid;border-top-width:1pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        </td>
+      </tr>
+    </table>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p style="padding-left: 5pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="744" height="1" alt="image" src="oig_Image_062.png"/></span></p>
+    <h4 style="padding-top: 1pt;padding-left: 5pt;text-indent: 0pt;text-align: left;">ADDITIONAL SPACE</h4>
+    <h4 style="padding-top: 1pt;padding-left: 4pt;text-indent: 0pt;text-align: left;">III. OFFICIAL DUTY INFORMATION</h4>
+    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;"/>
+    <ol id="l4">
+      <li style="padding-top: 5pt;padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Nature of Official Duties</h4>
+        <p style="padding-top: 1pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">Describe the principal duties and responsibilities of your current position. You may attach a copy of your position description in lieu of providing the description unless you currently have significant duties or assignments that are not reflected in that document.</p>
+        <p class="s12" style="padding-top: 7pt;padding-left: 29pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_063.png"/></span> <span class="p">Position Description Attached</span></p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="728" height="1" alt="image" src="oig_Image_064.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Relationship of Official Duties to Outside Activity</h4>
+        <p style="padding-top: 1pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">Describe any official duties that relate in any way to the proposed activity. If none, explain why.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="740" height="1" alt="image" src="oig_Image_065.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Effect of Official Duties on Outside Employer</h4>
+        <p style="padding-top: 2pt;padding-left: 18pt;text-indent: 0pt;text-align: justify;">In performing your official duties, explain how your actions or the matters upon which you may be called upon to work could affect the interests of the person for whom or the organization for which the proposed activity will be performed. If the exercise of your official duties would not have such an effect, explain why.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="728" height="1" alt="image" src="oig_Image_066.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Assignments Involving Outside Employer</h4>
+        <p style="padding-top: 1pt;padding-left: 20pt;text-indent: 0pt;text-align: left;">Describe any official duty assignments or other interactions you have had that involve the person for whom or the organization for which the proposed activity will be performed and indicate when such assignments or interactions occurred. If none, explain.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="740" height="1" alt="image" src="oig_Image_067.png"/></span></p>
+      </li>
+      <li style="padding-top: 1pt;padding-bottom: 3pt;padding-left: 252pt;text-indent: -244pt;text-align: left;">
+        <h4 style="display: inline;">CERTIFICATION</h4>
+      </li>
+    </ol>
+    <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="728" height="1" alt="image" src="oig_Image_068.png"/></span></p>
+    <p style="padding-top: 1pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">The undersigned employee certifies that the notices in Part VIII have been read and understood and that the statements made and information provided on this form are true, complete, and correct to the best of the individual&#39;s knowledge.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="53" alt="image" src="oig_Image_069.png"/></span></p>
+    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">EMPLOYEE SIGNATURE DATE</p>
+    <h4 style="padding-top: 1pt;padding-left: 4pt;text-indent: 0pt;text-align: left;">IV. SUPERVISOR REVIEW</h4>
+    <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;"/>
+    <ol id="l5">
+      <li style="padding-top: 6pt;padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Summary of Applicable Law</h4>
+        <p style="padding-top: 2pt;padding-left: 6pt;text-indent: 0pt;text-align: justify;">An employee cannot undertake an outside activity that conflicts with the employee&#39;s official duties. An activity conflicts with official duties: (a) if it is prohibited by statute or regulation; or (b) if, under the standards in 5 CFR 2635.402 and 2635.502, it would require the employee&#39;s recusal from matters so central or critical to the performance of his or her official duties that the employee&#39;s ability to perform the duties of his or her position would be materially impaired. Such a recusal would likely arise where the outside activity involves a person or entity that is regulated by, does business with, receives grants or other benefits from, or is otherwise substantially impacted by the programs, policies, and operations of the employee&#39;s agency, and the employee normally would be involved personally and substantially in such matters on a frequent basis or as a principal duty. In addition, an activity may be improper if the circumstances suggest that the employee received an outside business opportunity based on his or her official position or would create the appearance of using public office for the private gain of an outside entity. An employee also must endeavor to avoid any actions that create the appearance of a violation of law or the ethical standards. Special rules apply to activities involving fundraising, expert witness testimony, teaching, speaking, writing, or editing, and activities with foreign entities. Certain categories of employees, such as those in FDA, NIH, and OGC, are subject to component specific rules on outside activities. Refer to the Standards of Ethical Conduct, 5 CFR part 2635, subpart H, and the HHS Supplemental Ethics Regulation, 5 CFR part 5501.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 7pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="728" height="1" alt="image" src="oig_Image_070.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Supervisor&#39;s Statement</h4>
+        <p style="padding-top: 3pt;padding-left: 20pt;text-indent: 0pt;text-align: left;">Describe the extent to which the employee&#39;s official duties are related to the proposed outside activity.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 7pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="728" height="1" alt="image" src="oig_Image_071.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Recommendation</h4>
+      </li>
+    </ol>
+    <p style="padding-top: 1pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">The undersigned supervisor, identified in Part I, Item 10, has reviewed the employee&#39;s responses, obtained additional information where appropriate, and recommends the following action:</p>
+    <p class="s12" style="padding-top: 4pt;padding-left: 28pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_072.png"/></span> <span class="h4">Recommend Approval</span></p>
+    <p style="padding-top: 3pt;padding-left: 41pt;text-indent: 0pt;text-align: justify;">If this box is checked, the supervisor understands that if the outside activity is approved, the employee may be disqualified from performing official duties that involve or affect any outside entity with which the employee has an outside employment, consulting, or similar relationship. If the activity constitutes employment or service as an officer, director, or trustee, or in another fiduciary role, the recusal obligation may extend not only to government matters that specifically involve or affect the outside entity, but to those matters that affect generally the industry or economic sector in which the outside entity operates. The supervisor concludes that any work assignments involving specific or general matters from which the employee will be recused can be reassigned to another individual and are not so central or critical to the performance of the employee&#39;s official duties that the employee&#39;s ability to perform the duties of his her position would be materially impaired.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s12" style="padding-left: 27pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_073.png"/></span>  <span class="h4">Recommend Disapproval</span></p>
+    <p style="padding-top: 2pt;padding-left: 41pt;text-indent: 0pt;text-align: justify;">If this box is checked, explain the reason(s) in the additional space provided on the last page of this form.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="53" alt="image" src="oig_Image_074.png"/></span></p>
+    <p style="padding-top: 4pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">SUPERVISOR SIGNATURE DATE</p>
+    <table style="border-collapse:collapse;margin-left:8.559pt" cellspacing="0">
+      <tr style="height:14pt">
+        <td style="width:553pt" colspan="2" bgcolor="#C0C0C0">
+          <p class="s7" style="padding-top: 1pt;padding-left: 4pt;text-indent: 0pt;text-align: left;">V. MANAGEMENT / COMMITTEE / OTHER INTERMEDIATE REVIEW</p>
+        </td>
+      </tr>
+      <tr style="height:39pt">
+        <td style="width:274pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s7" style="padding-top: 3pt;text-indent: 0pt;text-align: left;">1. Name of Reviewer</p>
+        </td>
+        <td style="width:279pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p class="s7" style="padding-top: 3pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">2. Title of Reviewer</p>
+        </td>
+      </tr>
+    </table>
+    <ol id="l6">
+      <li style="padding-left: 17pt;text-indent: -11pt;text-align: left;">
+        <h4 style="display: inline;">Reviewer Contact Information</h4>
+        <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="97" alt="image" src="oig_Image_075.png"/></span></p>
+        <p style="padding-top: 6pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">TELEPHONE FAX</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-top: 6pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">CELL EMAIL</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+      </li>
+      <li style="padding-left: 19pt;text-indent: -11pt;text-align: left;">
+        <h4 style="display: inline;">Organization</h4>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="740" height="1" alt="image" src="oig_Image_076.png"/></span></p>
+      </li>
+      <li style="padding-left: 20pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Committee</h4>
+        <p style="padding-top: 1pt;padding-left: 22pt;text-indent: 0pt;text-align: left;">If the reviewer acts on behalf of a committee, identify the body and record any dissenting views in the &quot;Comments&quot; below.</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="740" height="1" alt="image" src="oig_Image_077.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Review</h4>
+        <p style="padding-top: 1pt;padding-left: 19pt;text-indent: 0pt;text-align: left;">Review the employee&#39;s answers and indicate whether you concur in the supervisor&#39;s recommendation. Explain your reason(s) in the space below. Sign and date the form in the space provided.</p>
+        <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="66" alt="image" src="oig_Image_078.png"/></span></p>
+        <p class="s12" style="padding-top: 5pt;padding-left: 40pt;text-indent: -14pt;line-height: 158%;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_079.png"/></span>  <span class="p">Concur Nonconcur</span></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;text-align: left;">REVIEWER SIGNATURE DATE</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+      </li>
+      <li style="padding-left: 17pt;text-indent: -11pt;text-align: left;">
+        <h4 style="display: inline;">Comments</h4>
+      </li>
+    </ol>
+    <table style="border-collapse:collapse;margin-left:6.589pt" cellspacing="0">
+      <tr style="height:14pt">
+        <td style="width:553pt" colspan="2" bgcolor="#C0C0C0">
+          <p class="s7" style="padding-top: 1pt;padding-left: 4pt;text-indent: 0pt;text-align: left;">VI. AGENCY ETHICS OFFICIAL REVIEW</p>
+        </td>
+      </tr>
+      <tr style="height:38pt">
+        <td style="width:276pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s7" style="padding-top: 2pt;text-indent: 0pt;text-align: left;">1. Name of Agency Ethics Official</p>
+        </td>
+        <td style="width:277pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p class="s7" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">2. Title of Agency Ethics Official</p>
+        </td>
+      </tr>
+    </table>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <ol id="l7">
+      <li style="padding-top: 4pt;padding-left: 17pt;text-indent: -11pt;text-align: left;">
+        <h4 style="display: inline;">Organization</h4>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="740" height="1" alt="image" src="oig_Image_080.png"/></span></p>
+      </li>
+      <li style="padding-top: 1pt;padding-left: 17pt;text-indent: -11pt;text-align: left;">
+        <h4 style="display: inline;">Ethics Review</h4>
+        <p style="padding-left: 18pt;text-indent: 0pt;text-align: justify;">Review the employee&#39;s answers and the supervisor&#39;s recommendation. Consider the assessment of any management official, committee, or other intermediate reviewer. Based on the information provided and applying the standard for approval prescribed in 5 CFR 5501.106(d)(4), indicate whether the activity can be approved or permission must be denied. Explain your reason(s) in the space below and describe any actions deemed necessary to ensure compliance with applicable ethics laws. Sign and date the form in the space provided.</p>
+        <p class="s12" style="padding-top: 7pt;padding-left: 28pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_081.png"/></span> <span class="p">Request as described may be approved</span></p>
+        <p style="padding-top: 4pt;padding-left: 28pt;text-indent: 0pt;line-height: 150%;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_082.png"/></span><span class="s12"> </span>Request may be approved subject to conditions noted in Comments Section <span><img width="13" height="13" alt="image" src="oig_Image_083.png"/></span><span class="s13">  </span>Request as described must be denied</p>
+        <p class="s12" style="padding-left: 28pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_084.png"/></span> <span class="p">Other disposition noted in Comments Section</span></p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="49" alt="image" src="oig_Image_085.png"/></span></p>
+        <p style="padding-top: 4pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">AGENCY ETHICS OFFICIAL SIGNATURE DATE</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+      </li>
+      <li style="padding-left: 17pt;text-indent: -11pt;text-align: left;">
+        <h4 style="display: inline;">Comments</h4>
+      </li>
+    </ol>
+    <table style="border-collapse:collapse;margin-left:6.589pt" cellspacing="0">
+      <tr style="height:14pt">
+        <td style="width:553pt" colspan="2" bgcolor="#C0C0C0">
+          <p class="s7" style="padding-top: 1pt;padding-left: 4pt;text-indent: 0pt;text-align: left;">VII. AGENCY DESIGNEE (APPROVING OFFICIAL) DETERMINATION</p>
+        </td>
+      </tr>
+      <tr style="height:38pt">
+        <td style="width:276pt;border-bottom-style:solid;border-bottom-width:1pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s7" style="padding-top: 2pt;text-indent: 0pt;text-align: left;">1. Name of Agency Designee</p>
+        </td>
+        <td style="width:277pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:1pt">
+          <p class="s7" style="padding-top: 2pt;padding-left: 2pt;text-indent: 0pt;text-align: left;">2. Title of Agency Designee</p>
+        </td>
+      </tr>
+    </table>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <ol id="l8">
+      <li style="padding-top: 4pt;padding-left: 17pt;text-indent: -11pt;text-align: left;">
+        <h4 style="display: inline;">Organization</h4>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="740" height="1" alt="image" src="oig_Image_086.png"/></span></p>
+      </li>
+      <li style="padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Decision</h4>
+        <p style="padding-top: 2pt;padding-left: 18pt;text-indent: 0pt;text-align: left;">Based on the foregoing statements and any supporting documentation, the recommendations of the supervisor and, if applicable, any management official, committee, or other intermediate reviewer, and the review by the agency ethics official, the disposition indicated below constitutes my written determination, pursuant to 5 CFR 2635.803 and 5 CFR 5501.106(d), that the request to engage in the identified outside activity is:</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p class="s12" style="padding-left: 27pt;text-indent: 0pt;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_087.png"/></span> <span class="p">Approved</span></p>
+        <p style="padding-top: 4pt;padding-left: 28pt;text-indent: 0pt;line-height: 146%;text-align: left;"><span><img width="13" height="13" alt="image" src="oig_Image_088.png"/></span><span class="s12"> </span>Approved subject to conditions <span><img width="13" height="13" alt="image" src="oig_Image_089.png"/></span><span class="s13">  </span>Denied</p>
+        <p style="text-indent: 0pt;text-align: left;"><span><img width="736" height="49" alt="image" src="oig_Image_090.png"/></span></p>
+        <p style="padding-top: 6pt;padding-left: 6pt;text-indent: 0pt;text-align: left;">AGENCY DESIGNEE (APPROVING OFFICIAL) SIGNATURE DATE</p>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+      </li>
+      <li style="padding-top: 5pt;padding-left: 18pt;text-indent: -12pt;text-align: left;">
+        <h4 style="display: inline;">Specified Conditions <i>(if any)</i></h4>
+        <p style="text-indent: 0pt;text-align: left;"><br/></p>
+        <p style="padding-left: 6pt;text-indent: 0pt;line-height: 1pt;text-align: left;"><span><img width="740" height="1" alt="image" src="oig_Image_091.png"/></span></p>
+      </li>
+      <li style="padding-left: 17pt;text-indent: -11pt;text-align: left;">
+        <h4 style="display: inline;">Comments</h4>
+      </li>
+    </ol>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <h2 style="padding-top: 4pt;padding-left: 5pt;text-indent: 0pt;text-align: justify;">APPROVAL OF AN OUTSIDE ACTIVITY DOES NOT RELEASE YOU FROM A CONTINUING LEGAL OBLIGATION TO DISQUALIFY YOURSELF FROM OFFICIAL ASSIGNMENTS AFFECTING YOUR OUTSIDE EMPLOYER OR THE ENTITY TO WHICH YOU ARE PROVIDING PERSONAL SERVICES. WHILE PERFORMING AN APPROVED OUTSIDE ACTIVITY, ANY ACTIONS TAKEN IN CONFLICT WITH APPLICABLE ETHICS LAWS MAY SUBJECT YOU TO CRIMINAL PROSECUTION OR DISCIPLINARY PROCEEDINGS.</h2>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <table style="border-collapse:collapse;margin-left:5.137pt" cellspacing="0">
+      <tr style="height:625pt">
+        <td style="width:276pt;border-bottom-style:solid;border-bottom-width:2pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s26" style="padding-left: 1pt;text-indent: 0pt;line-height: 9pt;text-align: left;">Caution. <span class="s27">When you consult, teach, speak, write, serve on a board,</span></p>
+          <p class="s27" style="padding-left: 1pt;text-indent: 0pt;text-align: justify;">or work for a company, organization, or other entity outside your government job, your relationship with that outside entity has certain legal and ethical consequences. The approval of an outside activity does not mean that you are free of conflicts of interest. You must  still follow all substantive ethics requirements after approval is granted. Consult the ethics regulations at 5 CFR 2635.802 and 5501.106(d)(4) which are reprinted below.</p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s26" style="padding-left: 1pt;text-indent: 0pt;text-align: left;">Conflicts Resolution. <span class="s27">An approved HHS Form 520 does not  signify that you need not be concerned about conflicts of interest. Under the law, conflicts of interest arising out of outside employment or service in a fiduciary position can be resolved in advance in only three ways: (1) you can inform your supervisor and disqualify yourself from participating in a conflicting government matter (often called a recusal); (2) you can seek, if certain legal requirements are satisfied, a separate legal document from your appointing official or designee that specifically permits you to work on the government matter (known as a waiver), or (3) you can resign from either your government or outside job. Outside relationships that fall short of actual employment or a fiduciary role pose similar appearance concerns that must be addressed under procedures in 5 CFR 2635.502.</span></p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s26" style="padding-left: 1pt;text-indent: 0pt;text-align: justify;">Effect of Prior Approval. <span class="s27">The outside activities prior approval process has very limited purposes. When a reviewer approves an HHS Form 520 for your outside activity, two fundamental assessments are being made, which are discussed below. You reasonably may rely on these specific determinations only if you provided all relevant information on the form  and  the  circumstances under review do not thereafter change. You remain responsible for the legal and ethical consequences of any change   in personal or business affairs or a change in your government duties.</span></p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s27" style="text-indent: 0pt;text-align: justify;">First, based on the information which you provide, the reviewer determines whether your proposed activity is plainly prohibited by applicable statutes or regulations, including the provisions of the ethical standards governing appearances of impropriety. For example, if you want to lobby Federal agencies on behalf of a non- profit organization that employs you, prior approval will be denied because a criminal statute prohibits such  representational  activities.</p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s27" style="padding-left: 1pt;text-indent: 0pt;text-align: justify;">Second, assuming your proposed activity is not specifically prohibited, the reviewer determines whether, under the circum- stances, approval should be denied for other reasons specified under the law. For example, the reviewer may deny approval if the facts show that you used your government position to obtain an outside compensated business opportunity or if the activity would create the appearance that you are violating the law or the ethical standards. Another common reason for denying approval is that the outside activity may prevent you from handling work that is expected of you. Because the outside activity may cause you to have to disqualify yourself from a broad range of job assignments, or even a few crucial projects, that will affect your outside employer or the entity to which you provide personal services, it may be impossible for you to discharge fully your government duties.</p>
+        </td>
+        <td style="width:276pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:2pt">
+          <p class="s27" style="padding-left: 7pt;text-indent: 0pt;line-height: 9pt;text-align: left;">If, however, your outside activity is approved, the reviewer has</p>
+          <p class="s27" style="padding-left: 7pt;text-indent: 0pt;text-align: justify;">determined that the matters in which you will not be allowed to participate are not “so central or critical to the performance of [your] official duties” that your ability to perform the duties of your position would be materially impaired. In other words, you cannot work on a government matter affecting your outside employer, but the reviewer expects that you will be able to stay away from these assignments and still do your job.</p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s26" style="padding-left: 7pt;text-indent: 0pt;text-align: justify;">Recusal Obligations. <span class="s27">When performing your Federal duties, you must not participate in any government matter that will affect your own self-interest in continuing your outside job or activity. For example, you would have to disqualify yourself from participating in any official matter that might put your outside employer out of business or seriously affect its finances, either positively or negatively, so that the odds of your remaining employed are also affected. In addition, when you work for an outside employer or serve in a fiduciary role with an organization, the financial interests of that company or organization are considered to be your own. As a result, if the company or organization has a financial interest in how a government matter will be resolved, you cannot work on that matter. This means that you cannot work on a government matter that involves or affects your outside employer as a specific party, such as a contract, grant, audit, investigation, or litigation. The law also requires you to stay away from government matters that are larger in scope, such as deliberations and decisions on developing, implementing, or enforcing statutes, regulations, policies, studies, or proposals, that will have an effect on a large class of employers like the one for which you work on the outside. For example, if you were permitted to have an outside position as an employee of a hospital, a drug company, or a nonprofit organization, you could not participate personally in any significant way in a policy decision that affects the financial interests of the industry or organizational sector in which these employers operate. Under certain limited circumstances, a waiver for such “particular matters of general applicability” can be considered, if you notify your appointing official in advance and receive a written determination. Outside relation- ships that fall short of actual employment or a fiduciary role pose similar appearance concerns, but the recusal obligation is limited to specific party matters.</span></p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s26" style="padding-left: 7pt;text-indent: 0pt;text-align: justify;">Scope of Recusal. <span class="s27">Although many employees understand the need to disqualify themselves from participating in an official matter that affects their outside employer, they often believe erroneously that they can pick and choose among the various aspects of a particular matter and stay away only from the important decisions. Such incomplete recusals will not protect you from a criminal conflict of interest violation. Unless a waiver, approved in advance, identifies specific permitted activities, you must refrain entirely and absolutely from participating personally and substantially in a government matter that affects your own financial interest or that of an outside employer. When you are involved significantly in proposing, planning, advising, deciding, or implementing some official action, and you do so individually or by actively directing subordinates, your participation is personal and substantial.</span></p>
+        </td>
+      </tr>
+    </table>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <h2 style="padding-top: 4pt;padding-left: 7pt;text-indent: 0pt;text-align: left;">EXCERPTS FROM THE STANDARDS OF ETHICAL CONDUCT FOR EMPLOYEES OF THE EXECUTIVE BRANCH AND THE DEPARTMENT OF HEALTH AND HUMAN SERVICES SUPPLEMENTAL AGENCY ETHICS REGULATIONS:</h2>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <h2 style="padding-left: 178pt;text-indent: 0pt;text-align: left;">TITLE 5 CODE OF FEDERAL REGULATIONS</h2>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <table style="border-collapse:collapse;margin-left:6.571pt" cellspacing="0">
+      <tr style="height:643pt">
+        <td style="width:276pt;border-bottom-style:solid;border-bottom-width:2pt;border-right-style:solid;border-right-width:1pt">
+          <p class="s26" style="text-indent: 0pt;line-height: 9pt;text-align: justify;">§ 2635.802 Conflicting outside employment and activities.</p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s27" style="padding-right: 6pt;text-indent: 0pt;text-align: justify;">An employee shall not engage in outside employment or any other outside activity that conflicts with his official duties. An activity conflicts with an employee&#39;s official duties:</p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <ol id="l9">
+            <li style="padding-right: 7pt;text-indent: 0pt;text-align: justify;">
+              <p class="s27" style="display: inline;">If it is prohibited by statute or by an agency supplemental regulation; or</p>
+            </li>
+            <li style="padding-right: 7pt;text-indent: 0pt;text-align: justify;">
+              <p class="s27" style="display: inline;">If, under the standards set forth in §§ 2635.402 and 2635.502, it would require the employee&#39;s disqualification from matters so central or critical to the performance of his official duties that the employee&#39;s ability to perform the duties of his position would be materially impaired.</p>
+            </li>
+          </ol>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s27" style="padding-right: 7pt;text-indent: 0pt;text-align: justify;">Employees are cautioned that even though an outside activity may not be prohibited under this section, it may violate other principles or standards set forth in this part or require the employee to disqualify himself from participation in certain particular matters under either subpart D or subpart E of this part.</p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s26" style="padding-right: 7pt;text-indent: 0pt;text-align: justify;">Example 1: <span class="s27">An employee of the Environmental Protection Agency has just been promoted. His principal duty in his new position is to write regulations relating to the disposal of hazardous waste. The employee may not continue to serve as president of a nonprofit environmental organization that routinely submits comments on such regulations. His service as an officer would require his disqualification from duties critical to the performance of his official duties on a basis so frequent as to materially impair his ability to perform the duties of his position.</span></p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s26" style="padding-right: 7pt;text-indent: 0pt;text-align: justify;">Example 2: <span class="s27">An employee of the Occupational Safety and Health Administration who was and is expected again to be instrumental in formulating new OSHA safety standards applicable to manu- facturers that use chemical solvents has been offered a consulting contract to provide advice to an affected company in restructuring its manufacturing operations to comply with the OSHA standards. The employee should not enter into the consulting arrangement even though he is not currently working on OSHA standards affecting this industry and his consulting contract can be expected to be completed before he again works on such standards. Even though the consulting arrangement would not be a conflicting activity within the meaning of § 2635.802, it would create an appearance that the employee had used his official position to obtain the compensated outside business opportunity and it would create the further appearance of using his public office for the private gain of the manufacturer.</span></p>
+        </td>
+        <td style="width:276pt;border-left-style:solid;border-left-width:1pt;border-bottom-style:solid;border-bottom-width:2pt">
+          <p class="s26" style="padding-left: 5pt;text-indent: 0pt;line-height: 9pt;text-align: justify;">§ 5501.106(d)(5) Standard for approval.</p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s27" style="padding-left: 5pt;padding-right: 1pt;text-indent: 0pt;text-align: justify;">Approval shall be granted only upon a determination that the outside employment or other outside activity is not expected to involve conduct prohibited by statute or Federal regulation, including 5 CFR part 2635 and this part.</p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s26" style="padding-left: 5pt;text-indent: 0pt;text-align: justify;">Note: The granting of approval for an outside activity does not relieve the employee of the obligation to abide by all applicable laws governing employee conduct nor does approval constitute a sanction of any violation. Approval involves an assessment that the general activity as described on the submission does not appear likely to violate any criminal statutes or other ethics rules. Employees are reminded that during the course of an otherwise approvable activity, situations may arise, or actions may be contemplated, that, nevertheless, pose ethical concerns.</p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s26" style="padding-left: 5pt;text-indent: 0pt;text-align: justify;">Example 1: <span class="s27">A clerical employee with a degree in library science volunteers to work on the acquisitions committee at a local public library. Serving on a panel that renders advice to a non-Federal entity is subject to prior approval. Because recommending books for the library collection normally would not pose a conflict with the typing duties assigned the employee, the request would be approved.</span></p>
+          <p style="text-indent: 0pt;text-align: left;"><br/></p>
+          <p class="s26" style="padding-left: 5pt;text-indent: 0pt;text-align: justify;">Example 2: <span class="s27">While serving on the library acquisitions committee, the clerical employee in the preceding example is asked to help the library business office locate a missing book order. Shipment of the order is delayed because the publisher has declared bankruptcy and its assets, including inventory in the warehouse, have been frozen to satisfy the claims of the Internal Revenue Service and other creditors. The employee may not contact the Federal bankruptcy trustee to seek, on behalf of the public library, the release of the books. Even though the employee&#39;s service on the acquisitions committee had been approved, a criminal statute, 18</span></p>
+          <p class="s27" style="padding-left: 5pt;text-indent: 0pt;text-align: justify;">U.S.C. 205, would preclude any representation by a Federal employee of an outside entity before a Federal court or agency with respect to a matter in which the United States is a party or has a direct and substantial interest.</p>
+        </td>
+      </tr>
+    </table>
+    <p style="padding-top: 4pt;padding-left: 6pt;text-indent: 0pt;text-align: left;"><span class="s28" style=" background-color: #C0C0C0;">                                                                                                 PRIVACY ACT STATEMENT                                                                                                        </span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s2" style="padding-left: 31pt;text-indent: 0pt;text-align: justify;">The Ethics in Government Act, 5 U.S.C. App. § 101, <i>et seq.</i>, Executive Order 12674, as amended by Executive Order 12731, Sections 301 and 7301 of Title 5 of the U.S. Code, and Sections 2635.803 and 5501.106(d) of Title 5 of the Code of Federal Regulations authorize the collection of this information. Disclosure of this information is mandatory for employees seeking prior authorization from an agency designee to pursue outside employment or activities pursuant to Sections 2635.803 and 5501.106(d) of Title 5 of the Code of Federal Regulations. Failure to provide all or part of the requested information may result in denial of the request for approval of the outside employment or activity. Falsification of information or failure to file or report information required to be reported may subject the employee to disciplinary action. Knowing and willful falsification of information required to be reported may subject the employee to criminal prosecution. The primary use of this information is to allow HHS supervisors, management officials, and agency ethics officials to make necessary determinations concerning employee requests for prior approval of outside employment or activities in order to prevent a conflict of interest or other violations of the statutes, regulations, and executive orders governing employee conduct. The information is also requested, pursuant to 5 C.F.R. §§ 2638.203(b)(9),(10), and (11), for the purpose of evaluating ethics program administration, as well as the Department’s supplemental ethics regulations, to determine their continued adequacy and effectiveness in relation to current agency responsibilities and to ensure that prompt and effective action is taken to remedy violations or potential violations, or appearances thereof, of conflict of interest and related ethics provisions. Additionally, this information may be disclosed to: (1) the Office of Personnel Management, Office of Government Ethics, Merit Systems Protection Board, Office of the Special Counsel, Equal Employment Opportunity Commission, Federal Labor Relations Authority, Federal Service Impasses Panel, Federal Mediation and Conciliation Service, and an arbitrator, in carrying out their functions; (2) a Federal, State, or local agency charged with investigating or prosecuting violations of, or implementing, the law, in the event there is an indication of a violation or potential violation of civil, criminal or regulatory law; (3) a Federal, State, or local agency maintaining enforcement records or other pertinent records, such as current licenses, if necessary to obtain a record relevant to an agency decision concerning the hiring or retention of an employee, the issuance of a security clearance, the letting of a contract, or the issuance of a license, grant or other benefit; (4) the National Archives and Records Administration or the General Services Administration in records management inspections; (5) the Office of Management and Budget during legislative coordination on privacy relief legislation; (6) Federal agencies with power to subpoena other Federal agencies’ records; (7) a court or party in a court or Federal administrative proceeding if the Government is a party or in order to comply with a judge-issued subpoena; (8) private firms with which the Department may contract for the purpose of collating, analyzing, aggregating or otherwise refining records; (9) a Member of Congress or a Congressional office, pursuant to an inquiry made at the request of the individual who is a subject of the record; (10) the Department of Justice in defense of litigation; and (11) contractors and other non-Government employees working for the Federal Government to accomplish a function related to an Office of Government Ethics Government-wide system of records. This confidential report will not be disclosed to any requesting person unless authorized by law. See the OGE/GOVT-2 Government-wide executive branch system of records.</p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 4pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">1.   <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 11pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">2.   <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 11pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">3.   <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 11pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">4.   <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 11pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">5.   <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 11pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">6.   <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 11pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">7.   <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 11pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">8.   <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 11pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">9.   <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p class="s1" style="padding-top: 11pt;padding-left: 30pt;text-indent: 0pt;text-align: left;">10. <u>                                                                                                                                                  </u></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p style="padding-left: 6pt;text-indent: 0pt;line-height: 3pt;text-align: left;"><span><img width="736" height="4" alt="image" src="oig_Image_092.png"/></span></p>
+    <p style="text-indent: 0pt;text-align: left;"><br/></p>
+    <p style="text-indent: 0pt;text-align: left;"><span><img width="78" height="80" alt="H H S logo." title="H H S logo." src="oig_Image_093.jpg"/></span></p>
+    <h2 style="padding-top: 4pt;padding-left: 122pt;text-indent: 0pt;text-align: left;">Department of Health and Human Services Office of the Secretary</h2>
+    <h2 style="padding-left: 122pt;text-indent: 0pt;text-align: left;">Office of the General Counsel Ethics Division</h2>
+    <h2 style="padding-left: 122pt;text-indent: 0pt;text-align: left;">Washington, DC 20201</h2>
+    <h2 style="padding-left: 122pt;text-indent: 0pt;text-align: left;">(202) 690-7258</h2>
+  </div>
+</body>
+]]></template>
+    </sp_widget>
+</record_update>
