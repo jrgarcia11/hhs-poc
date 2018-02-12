@@ -53,15 +53,15 @@ padding: 10px;
         <sys_created_on>2018-01-30 18:54:18</sys_created_on>
         <sys_customer_update>false</sys_customer_update>
         <sys_id>c5f229e84fc4d700f78e74828110c7cf</sys_id>
-        <sys_mod_count>34</sys_mod_count>
+        <sys_mod_count>35</sys_mod_count>
         <sys_name>OIG Welcome</sys_name>
         <sys_package display_value="HHS OIG POC" source="x_entg_hhs_poc">62f1d40a4fb38300f78e74828110c78e</sys_package>
         <sys_policy/>
         <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
         <sys_scope display_value="HHS OIG POC">62f1d40a4fb38300f78e74828110c78e</sys_scope>
         <sys_update_name>sp_widget_c5f229e84fc4d700f78e74828110c7cf</sys_update_name>
-        <sys_updated_by>daniyom.haile</sys_updated_by>
-        <sys_updated_on>2018-01-30 23:14:56</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2018-02-12 20:53:07</sys_updated_on>
         <template><![CDATA[<div class="welcome-wrapper">
 <h1>Financial Disclosure Status Page </h1>
   <h2>   Welcome {{user.first_name}}</h2>
@@ -73,7 +73,7 @@ padding: 10px;
       <h5>REQUEST FOR APPROVAL OF OUTSIDE ACTIVITY   </h5>
        <img src="oig_520-icon.svg" class="oig-icon"/>
       <div>
-         <a href="oig?id=form_520&sys_id=-1&table=x_entg_hhs_poc_outside_activity_request" class="btn btn-success"> Get Started </a>
+         <a href="oig?id=form_520&sys_id=-1&table=x_entg_hhs_poc_outside_activity_request_520" class="btn btn-success"> Get Started </a>
       </div>
     </div>
   </div>
@@ -86,7 +86,7 @@ padding: 10px;
        <h5>   ANNUAL REPORT OF OUTSIDE ACTIVITY    </h5>
          <img src="oig_521-icon.svg" class="oig-icon"/>
        <div class="_ctr">
-             <a href="oig?id=form_521&sys_id=-1&table=x_entg_hhs_poc_outside_activity_annual_report" class="btn btn-success"> Get Started    </a>
+             <a href="oig?id=form_521&sys_id=-1&table=x_entg_hhs_poc_outside_activity_report_521" class="btn btn-success"> Get Started    </a>
 
        </div>
     </div>

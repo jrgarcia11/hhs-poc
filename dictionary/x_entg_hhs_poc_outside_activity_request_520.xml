@@ -12,6 +12,7 @@
             </choice>
         </element>
         <element label="Activity type desc" max_length="40" name="activity_type_desc" type="string"/>
+        <element label="Annual Report" max_length="32" name="annual_report" reference="x_entg_hhs_poc_outside_activity_report_521" type="reference"/>
         <element label="Approval recommendation" max_length="40" name="approval_recommendation" type="boolean"/>
         <element label="Comments" max_length="200" name="comments" type="string"/>
         <element choice="1" label="Compensated" max_length="40" name="compensated" type="boolean">
@@ -36,7 +37,6 @@
         <element label="Days per week" max_length="40" name="days_per_week" type="integer"/>
         <element label="Disapproval explanation" max_length="40" name="disapproval_explanation" type="string"/>
         <element label="Disclaimer text" max_length="40" name="disclaimer_text" type="boolean"/>
-        <element label="Employee" max_length="32" name="employee" reference="x_entg_hhs_poc_employees" type="reference"/>
         <element label="Employer duty effect" max_length="40" name="employer_duty_effect" type="string"/>
         <element label="End date" max_length="40" name="end_date" type="glide_date"/>
         <element label="Entity cell" max_length="40" name="entity_cell" type="string"/>
@@ -124,7 +124,7 @@
             <element name="location"/>
         </index>
         <index name="index2">
-            <element name="employee"/>
+            <element name="annual_report"/>
         </index>
     </element>
 </database>

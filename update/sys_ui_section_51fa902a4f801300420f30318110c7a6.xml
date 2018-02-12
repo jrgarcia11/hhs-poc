@@ -4,22 +4,22 @@
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>e91cbcba4f001300420f30318110c782</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>4ae084304f501300420f30318110c7ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <text>Nature of Official Duties</text>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>ed1cbcba4f001300420f30318110c782</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>4ee084304f501300420f30318110c7ed</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <text>Describe the principal duties and responsibilities of your current position. You may attach a copy of your position description in lieu of providing the
 description unless you currently have significant duties or assignments that are not reflected in that document.</text>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
@@ -27,44 +27,44 @@ description unless you currently have significant duties or assignments that are
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>e11cbcba4f001300420f30318110c783</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>42e084304f501300420f30318110c7ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <text>Relationship of Official Duties to Outside Activity</text>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>e51cbcba4f001300420f30318110c783</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>46e084304f501300420f30318110c7ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <text>Describe any official duties that relate in any way to the proposed activity. If none, explain why.</text>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>e91cbcba4f001300420f30318110c783</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>4ae084304f501300420f30318110c7ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <text>Effect of Official Duties on Outside Employer</text>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>ed1cbcba4f001300420f30318110c783</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>4ee084304f501300420f30318110c7ee</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <text>In performing your official duties, explain how your actions or the matters upon which you may be called upon to work could affect the interests of the
 person for whom or the organization for which the proposed activity will be performed. If the exercise of your official duties would not have such an
 effect, explain why.</text>
@@ -73,51 +73,51 @@ effect, explain why.</text>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>e11cbcba4f001300420f30318110c784</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>42e084304f501300420f30318110c7ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <text>Assignments Involving Outside Employer</text>
             <type display_value="Line Separator">a93fc8e00f530000b12e6903cfe012e6</type>
         </sys_ui_annotation>
         <sys_ui_annotation action="INSERT_OR_UPDATE">
             <is_plain_text>false</is_plain_text>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>e51cbcba4f001300420f30318110c784</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>46e084304f501300420f30318110c7ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <text>Describe any official duty assignments or other interactions you have had that involve the person for whom or the organization for which the proposed
 activity will be performed and indicate when such assignments or interactions occurred. If none, explain.</text>
             <type display_value="Text">863e446c0fd30000b12e6903cfe012ce</type>
         </sys_ui_annotation>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>e91cbcba4f001300420f30318110c782</element>
+            <element>4ae084304f501300420f30318110c7ed</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>a91cbcba4f001300420f30318110c784</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>0ae084304f501300420f30318110c7ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ed1cbcba4f001300420f30318110c782</element>
+            <element>4ee084304f501300420f30318110c7ed</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>2d1cbcba4f001300420f30318110c784</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>8ae084304f501300420f30318110c7ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -125,13 +125,13 @@ activity will be performed and indicate when such assignments or interactions oc
             <element>official_duty_desc_attached</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>ad1cbcba4f001300420f30318110c784</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>0ee084304f501300420f30318110c7ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -139,41 +139,41 @@ activity will be performed and indicate when such assignments or interactions oc
             <element>official_duty_desc</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>211cbcba4f001300420f30318110c785</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>8ee084304f501300420f30318110c7ef</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>e11cbcba4f001300420f30318110c783</element>
+            <element>42e084304f501300420f30318110c7ee</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>a11cbcba4f001300420f30318110c785</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>02e084304f501300420f30318110c7f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>e51cbcba4f001300420f30318110c783</element>
+            <element>46e084304f501300420f30318110c7ee</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>251cbcba4f001300420f30318110c785</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>82e084304f501300420f30318110c7f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -181,41 +181,41 @@ activity will be performed and indicate when such assignments or interactions oc
             <element>activity_duty_relation</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>a51cbcba4f001300420f30318110c785</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>06e084304f501300420f30318110c7f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>e91cbcba4f001300420f30318110c783</element>
+            <element>4ae084304f501300420f30318110c7ee</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>291cbcba4f001300420f30318110c785</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>86e084304f501300420f30318110c7f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>ed1cbcba4f001300420f30318110c783</element>
+            <element>4ee084304f501300420f30318110c7ee</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>a91cbcba4f001300420f30318110c785</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>0ae084304f501300420f30318110c7f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -223,41 +223,41 @@ activity will be performed and indicate when such assignments or interactions oc
             <element>employer_duty_effect</element>
             <position>9</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>2d1cbcba4f001300420f30318110c785</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>8ae084304f501300420f30318110c7f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>e11cbcba4f001300420f30318110c784</element>
+            <element>42e084304f501300420f30318110c7ef</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>ad1cbcba4f001300420f30318110c785</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>0ee084304f501300420f30318110c7f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>e51cbcba4f001300420f30318110c784</element>
+            <element>46e084304f501300420f30318110c7ef</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>211cbcba4f001300420f30318110c786</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>8ee084304f501300420f30318110c7f0</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type>annotation</type>
         </sys_ui_element>
@@ -265,13 +265,13 @@ activity will be performed and indicate when such assignments or interactions oc
             <element>outside_employer_assignments</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2018-02-06 15:50:49</sys_created_on>
-            <sys_id>a11cbcba4f001300420f30318110c786</sys_id>
+            <sys_created_on>2018-02-12 16:40:06</sys_created_on>
+            <sys_id>02e084304f501300420f30318110c7f1</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="Official Duty Information" display_value="Official Duty Information" name="x_entg_hhs_poc_outside_activity_request_520" sys_domain="global" view="Default view">51fa902a4f801300420f30318110c7a6</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2018-02-06 15:50:49</sys_updated_on>
+            <sys_updated_on>2018-02-12 16:40:06</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
